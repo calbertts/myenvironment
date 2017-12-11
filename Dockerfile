@@ -27,6 +27,7 @@ RUN apk add --update-cache --virtual build-deps --no-cache \
     the_silver_searcher \
     vim \
     neovim \
+    neovim-doc \
     && rm -rf /var/cache/apk/*
 
 RUN apk add --update-cache \
@@ -53,6 +54,7 @@ RUN curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
 
 # install fuzzy finder
 RUN git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+RUN /root/.fzf/install --bin
 
 # copy init.vim into container
 COPY init.vim /root/.config/nvim/init.vim
