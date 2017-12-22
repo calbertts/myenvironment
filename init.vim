@@ -3,11 +3,20 @@ if empty(glob('~/.vim/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall | source $MYVIMRC
 endif
 
-" Indent guidelines
-let g:indentguides_spacechar = '│'
-let g:indentguides_tabchar = '|'
-set concealcursor=ic
+" Quick git status
+nnoremap ? :GFiles?<CR>
 
+" Git hunks shorcuts
+nnoremap <C-S> :GitGutterNextHunk<CR>
+nnoremap <C-P> :GitGutterPrevHunk<CR>
+nnoremap <C-U> :GitGutterUndoHunk<CR>
+
+" Kepp selected test when fixing indentation
+vnoremap < <gv
+vnoremap > >gv
+
+" Easy motions
+nmap F <Plug>(easymotion-prefix)s
 
 " Limelight
 nmap <Leader>L :Limelight!!<CR>
@@ -110,7 +119,7 @@ set laststatus=2
 set signcolumn=yes
 let g:Powerline_symbols = 'fancy'
 set encoding=utf-8
-"let g:airline_theme="wombat"
+let g:airline_theme="wombat"
 let g:airline_theme='oceanicnext'
 set guifont=DroidSansMono\ Nerd\ Font\ 12
 let g:airline_left_sep = "\uE0B4"
@@ -121,6 +130,9 @@ let $FZF_DEFAULT_COMMAND= 'ag -g ""'
 "Theme
 let g:oceanic_next_terminal_bold = 1
 let g:oceanic_next_terminal_italic = 1
+let g:gruvbox_italic="1"
+let g:gruvbox_contrast_dark="soft"
+set background=dark
 colorscheme oceanicnext
 
 "Cursors
@@ -179,15 +191,20 @@ map <C-H> 10zh " Scroll 10 characters to the left
 
 "Working with files
 nnoremap <Leader>o :FZF<CR>
-nnoremap <Leader>w :bp\|bd #<CR>
+nnoremap <Leader>w :b#\|bd #<CR>
 nnoremap <Leader>n :bnext<CR>
 nnoremap <Leader>b :bprev<CR>
 nnoremap <Leader>c :Buffers<CR>
 nnoremap <leader>z <C-^>
 noremap <C-N> :enew<CR>
-inoremap <C-S> <C-[>:w<CR>
 
 "YouCompleteMe
+let g:ycm_filetype_blacklist = {
+  \'json': 1
+\}
+let g:ycm_filetype_specific_completion_to_disable = {
+  \'json': 1
+\}
 nnoremap <Leader>gt :YcmCompleter GoTo<CR>
 nnoremap <Leader>gr :YcmCompleter GoToReferences<CR>
 nnoremap <Leader>gf :YcmCompleter GoToDefinition<CR>
@@ -238,6 +255,7 @@ endfunction
 let g:workspace_session_name = 'Session.vim'
 let g:workspace_autosave_ignore = ['gitcommit']
 let g:workspace_autosave_always = 1
+let g:workspace_autosave_untrailspaces = 0
 
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent execute "!curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim"
@@ -263,7 +281,6 @@ Plug 'christoomey/vim-conflicted'
 Plug 'zhou13/vim-easyescape'
 Plug 'scrooloose/nerdtree'
 Plug 'vim-syntastic/syntastic'
-"Plug 'jiangmiao/auto-pairs'
 Plug 'junegunn/rainbow_parentheses.vim'
 Plug 'tpope/vim-surround'
 Plug 'maksimr/vim-jsbeautify'
@@ -271,6 +288,7 @@ Plug 'townk/vim-autoclose'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'metakirby5/codi.vim'
 Plug 'mhartington/oceanic-next'
+Plug 'morhetz/gruvbox'
 Plug 'Valloric/YouCompleteMe'
 Plug 'juanpabloaj/vim-istanbul'
 Plug 'junegunn/vim-easy-align'
@@ -278,6 +296,6 @@ Plug 'chrisbra/vim-diff-enhanced'
 Plug 'junegunn/vim-github-dashboard'
 Plug 'tyrannicaltoucan/vim-quantum'
 Plug 'junegunn/limelight.vim'
-Plug 'thaerkh/vim-indentguides'
+Plug 'easymotion/vim-easymotion'
 
 call plug#end()

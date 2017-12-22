@@ -61,9 +61,11 @@ COPY init.vim /root/.config/nvim/init.vim
 COPY init.vim /root/.vimrc
 COPY colors /root/.vim/colors
 COPY colors /root/.config/nvim/colors
+COPY rplugin /root/.config/nvim/rplugin
 
 # install all plugins
 RUN vim +PlugInstall +qall
+RUN nvim +UpdateRemotePlugins +q
 RUN cd ~/.vim/plugged/YouCompleteMe && ./install.py --js-completer --tern-completer
 
 ENV PATH "/root/bin:$PATH"
