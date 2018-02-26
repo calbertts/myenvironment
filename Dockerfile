@@ -39,6 +39,9 @@ RUN pip3 install neovim pep8
 
 RUN npm install -g neovim
 RUN npm install -g typescript
+RUN npm install -g eslint
+RUN npm install -g jshint
+RUN npm install -g jscs
 
 RUN mkdir ~/.config/nvim
 RUN mkdir ~/.config/nvim/rplugin
@@ -56,7 +59,7 @@ RUN curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
 RUN git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 RUN /root/.fzf/install --bin
 
-# copy init.vim into container
+# copy init.vim and rplugin into container
 COPY init.vim /root/.config/nvim/init.vim
 COPY init.vim /root/.vimrc
 COPY colors /root/.vim/colors

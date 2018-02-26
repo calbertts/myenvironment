@@ -3,14 +3,6 @@ if empty(glob('~/.vim/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall | source $MYVIMRC
 endif
 
-" Quick git status
-nnoremap ? :GFiles?<CR>
-
-" Git hunks shorcuts
-nnoremap <C-S> :GitGutterNextHunk<CR>
-nnoremap <C-P> :GitGutterPrevHunk<CR>
-nnoremap <C-U> :GitGutterUndoHunk<CR>
-
 " Kepp selected test when fixing indentation
 vnoremap < <gv
 vnoremap > >gv
@@ -32,8 +24,7 @@ xmap ga <Plug>(EasyAlign)
 " Start interactive EasyAlign for a motion/text object (e.g. gaip)
 nmap ga <Plug>(EasyAlign)
 
-" If doing a diff. Upon writing changes to file, automatically update the
-" differences
+" If doing a diff. Upon writing changes to file, automatically update the differences
 autocmd BufWritePost * if &diff == 1 | diffupdate | endif
 
 " Persistent undo
@@ -106,6 +97,8 @@ set number
 set nowrap
 set numberwidth=5
 set lazyredraw
+set synmaxcol=150
+syntax sync minlines=500
 set wildignore+=**/node_modules/**,**/dbData/**,**/jspm_packages/**,**/bundles/**,**/builds/**,**/dist/**
 hi CursorLine cterm=NONE ctermbg=237 ctermfg=NONE
 set fillchars+=vert:\│
@@ -115,16 +108,19 @@ hi Visual guibg=black
 let g:jsx_ext_required = 0
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#fnamemod = ':t'
 set laststatus=2
 set signcolumn=yes
 let g:Powerline_symbols = 'fancy'
 set encoding=utf-8
-let g:airline_theme="wombat"
+"let g:airline_theme="wombat"
 let g:airline_theme='oceanicnext'
 set guifont=DroidSansMono\ Nerd\ Font\ 12
 let g:airline_left_sep = "\uE0B4"
-let g:airline_left_alt_sep = ""
+let g:airline_left_alt_sep = "⎞"
 let g:airline_right_sep = "\uE0B6"
+let g:airline#extensions#tabline#close_symbol = "ⓧ "
+let g:airline#extensions#tabline#show_tab_nr = 0
 let $FZF_DEFAULT_COMMAND= 'ag -g ""'
 
 "Theme
@@ -147,37 +143,27 @@ let g:javascript_plugin_flow = 1
 
 let g:github_dashboard = { 'username': 'calbertts', 'password': $GITHUB_TOKEN }
 
-"jLinter
-"set statusline+=%#warningmsg#
-"set statusline+=%{SyntasticStatuslineFlag()}
-"set statusline+=%*
+" Linter options
+let g:ale_sign_error = '>> '
+let g:ale_sign_warning = '⁉ '
+let g:ale_sign_column_always = 0
+let g:airline#extensions#ale#enabled = 1
+let g:ale_completion_enabled = 1
+let g:ale_pattern_options = {
+\ '\.min\.js$': {'ale_linters': [], 'ale_fixers': []},
+\ '\.min\.css$': {'ale_linters': [], 'ale_fixers': []},
+\}
 
-let g:syntastic_always_populate_loc_list = 0
-let g:syntastic_auto_loc_list = 0
-let g:syntastic_check_on_open = 0
-let g:syntastic_check_on_wq = 0
-"let g:syntastic_javascript_checkers = ['jshint', 'jscs', 'eslint']
-let g:syntastic_javascript_checkers = ['eslint']
-let g:syntastic_error_symbol = '✖'
-let g:syntastic_style_error_symbol = '>>'
-let g:syntastic_warning_symbol = '⚠'
-let g:syntastic_style_warning_symbol = '🤦'
+let g:ale_linters = {
+\   'javascript': findfile('.eslintrc.yml', '.;') != '' ? ['eslint'] : ['jshint', 'jscs']
+\}
 
-"autocmd FileType javascript let b:syntastic_checkers = findfile('.eslintrc.yml', '.;') != '' ? ['eslint'] : ['jscs', 'eslint']
-autocmd FileType javascript let b:syntastic_checkers = ['eslint']
-
-highlight link SyntasticErrorSign SignColumn
-highlight link SyntasticWarningSign SignColumn
-highlight link SyntasticStyleErrorSign SignColumn
-highlight link SyntasticStyleWarningSign SignColumn
-"End Linter
-"End JS stuff
+let g:ale_fixers = {
+\   'javascript': ['eslint', 'importjs'],
+\}
 
 "Delete all whitespaces at the end of line
 autocmd BufWritePre * %s/\s\+$//e
-
-" Git stuff
-set diffopt+=vertical
 
 set rtp+=/Users/calbertts/.vim/plugged/powerline/bindings/vim
 
@@ -189,14 +175,90 @@ let mapleader = "\<Space>"
 map <C-L> 10zl " Scroll 10 characters to the right
 map <C-H> 10zh " Scroll 10 characters to the left
 
+
 "Working with files
 nnoremap <Leader>o :FZF<CR>
 nnoremap <Leader>w :b#\|bd #<CR>
-nnoremap <Leader>n :bnext<CR>
-nnoremap <Leader>b :bprev<CR>
-nnoremap <Leader>c :Buffers<CR>
-nnoremap <leader>z <C-^>
+nnoremap <Leader>bl :bnext<CR>
+nnoremap <Leader>bj :bprev<CR>
+nnoremap <Leader>bc :Buffers<CR>
+nnoremap <leader>bz <C-^>
+nnoremap <Leader>bc :bd<CR>
 noremap <C-N> :enew<CR>
+
+" Working with tabs
+nnoremap <Leader>tn :tabnew<CR>
+nnoremap <Leader>tj :tabp<CR>
+nnoremap <Leader>tl :tabn<CR>
+nnoremap <Leader>tc :tabc<CR>
+nnoremap <Leader>to :tabo<CR>
+
+" JSON
+nnoremap <Leader>jb :%!python -m json.tool<CR>
+
+" Git shorcuts
+" Git stuff
+set diffopt+=vertical
+
+nnoremap ? :GFiles?<CR>
+
+function! s:commits2(buffer_local, args)
+  let s:git_root = s:get_git_root()
+  if empty(s:git_root)
+    return s:warn('Not in git repository')
+  endif
+
+  let source = 'git log '.get(g:, 'fzf_commits_log_options', '--color=always '.fzf#shellescape('--format=%C(auto)%h%d %s %C(green)%cr'))
+  let current = expand('%')
+  let managed = 0
+  if !empty(current)
+    call system('git show '.fzf#shellescape(current).' 2> '.(s:is_win ? 'nul' : '/dev/null'))
+    let managed = !v:shell_error
+  endif
+
+  if a:buffer_local
+    if !managed
+      return s:warn('The current buffer is not in the working tree')
+    endif
+    let source .= ' --follow '.fzf#shellescape(current)
+  else
+    let source .= ' --graph'
+  endif
+
+  let command = a:buffer_local ? 'BCommits' : 'Commits'
+  let expect_keys = join(keys(get(g:, 'fzf_action', s:default_action)), ',')
+  let options = {
+  \ 'source':  source,
+  \ 'sink*':   s:function('s:commits_sink'),
+  \ 'options': ['--ansi', '--multi', '--tiebreak=index', '--reverse',
+  \   '--inline-info', '--prompt', command.'> ', '--bind=ctrl-s:toggle-sort',
+  \   '--header', ':: Press '.s:magenta('CTRL-S', 'Special').' to toggle sort, '.s:magenta('CTRL-Y', 'Special').' to yank commit hashes',
+  \   '--expect=ctrl-y,'.expect_keys]
+  \ }
+
+  if a:buffer_local
+    let options.options[-2] .= ', '.s:magenta('CTRL-D', 'Special').' to diff'
+    let options.options[-1] .= ',ctrl-d'
+  endif
+
+  if !s:is_win && &columns > s:wide
+    call extend(options.options,
+    \ ['--preview', 'echo {} | grep -o "[a-f0-9]\{7,\}" | head -1 | xargs -I % sh -c "git show --color=always % | diff-so-fancy" | head -200'])
+  endif
+
+  return s:fzf(a:buffer_local ? 'bcommits' : 'commits', options, a:args)
+endfunction
+
+"function! fzf#vim#commits(...)
+"  return s:commits2(0, a:000)
+"endfunction
+
+nnoremap <Leader>gj :GitGutterNextHunk<CR>
+nnoremap <Leader>gl :GitGutterPrevHunk<CR>
+nnoremap <Leader>gu :GitGutterUndoHunk<CR>
+nnoremap <Leader>gs :GitGutterStageHunk<CR>
+nnoremap <Leader>gd :Gdiff<CR>
+"nnoremap <Leader>gc :call fzf#vim#commits(0)<CR>
 
 "YouCompleteMe
 let g:ycm_filetype_blacklist = {
@@ -205,12 +267,12 @@ let g:ycm_filetype_blacklist = {
 let g:ycm_filetype_specific_completion_to_disable = {
   \'json': 1
 \}
-nnoremap <Leader>gt :YcmCompleter GoTo<CR>
-nnoremap <Leader>gr :YcmCompleter GoToReferences<CR>
-nnoremap <Leader>gf :YcmCompleter GoToDefinition<CR>
-nnoremap <Leader>gd :YcmCompleter GetDoc<CR>
-nnoremap <Leader>rr :YcmCompleter RefactorRename<CR>
-nnoremap <leader>f :vimgrep  . "'" . expand("<cword>") . "'" . **/*.js<CR>
+"nnoremap <Leader>gt :YcmCompleter GoTo<CR>
+"nnoremap <Leader>gr :YcmCompleter GoToReferences<CR>
+"nnoremap <Leader>gf :YcmCompleter GoToDefinition<CR>
+"nnoremap <Leader>gd :YcmCompleter GetDoc<CR>
+"nnoremap <Leader>rr :YcmCompleter RefactorRename<CR>
+"nnoremap <leader>f :vimgrep  . "'" . expand("<cword>") . "'" . **/*.js<CR>
 
 "Copy/Paste from clipboard
 vnoremap <Leader>y "*y
@@ -254,13 +316,18 @@ endfunction
 " Workspaces
 let g:workspace_session_name = 'Session.vim'
 let g:workspace_autosave_ignore = ['gitcommit']
-let g:workspace_autosave_always = 1
+let g:workspace_autosave = 0
 let g:workspace_autosave_untrailspaces = 0
 
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent execute "!curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim"
   autocmd VimEnter * PlugInstall | source $MYVIMRC
 endif
+
+noremap <silent> <c-u> :call smooth_scroll#up(&scroll, 0, 2)<CR>
+noremap <silent> <c-d> :call smooth_scroll#down(&scroll, 0, 2)<CR>
+noremap <silent> <c-b> :call smooth_scroll#up(&scroll*2, 0, 4)<CR>
+noremap <silent> <c-f> :call smooth_scroll#down(&scroll*2, 0, 4)<CR>
 
 " Plugins
 call plug#begin('~/.vim/plugged')
@@ -280,7 +347,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'christoomey/vim-conflicted'
 Plug 'zhou13/vim-easyescape'
 Plug 'scrooloose/nerdtree'
-Plug 'vim-syntastic/syntastic'
+Plug 'w0rp/ale'
 Plug 'junegunn/rainbow_parentheses.vim'
 Plug 'tpope/vim-surround'
 Plug 'maksimr/vim-jsbeautify'
@@ -297,5 +364,6 @@ Plug 'junegunn/vim-github-dashboard'
 Plug 'tyrannicaltoucan/vim-quantum'
 Plug 'junegunn/limelight.vim'
 Plug 'easymotion/vim-easymotion'
+Plug 'terryma/vim-smooth-scroll'
 
 call plug#end()

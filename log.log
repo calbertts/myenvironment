@@ -1,0 +1,1011 @@
+2018-02-03T23:19:38.786Z - debug: host.start
+2018-02-03T23:19:38.796Z - info: handleRequest:  poll
+2018-02-03T23:19:38.802Z - debug: request received:  poll
+2018-02-03T23:20:07.678Z - debug: host.start
+2018-02-03T23:20:07.688Z - info: handleRequest:  poll
+2018-02-03T23:20:07.695Z - debug: request received:  poll
+2018-02-03T23:20:22.784Z - debug: host.start
+2018-02-03T23:20:22.797Z - info: handleRequest:  poll
+2018-02-03T23:20:22.806Z - debug: request received:  poll
+2018-02-03T23:20:22.807Z - info: handleRequest:  /Users/calbertts/.config/nvim/rplugin/node/test:autocmd:BufEnter:*.js
+2018-02-03T23:20:22.807Z - debug: request received:  /Users/calbertts/.config/nvim/rplugin/node/test:autocmd:BufEnter:*.js
+2018-02-03T23:20:22.808Z - debug: host.handlePlugin:  /Users/calbertts/.config/nvim/rplugin/node/test:autocmd:BufEnter:*.js
+2018-02-03T23:20:22.863Z - debug: getPlugin.shouldCache true
+2018-02-03T23:20:22.863Z - debug: request -> neovim.api.nvim_command
+2018-02-03T23:20:22.864Z - debug: response -> neovim.api.nvim_command: null
+2018-02-03T23:20:22.864Z - debug: request -> neovim.api.nvim_command
+2018-02-03T23:20:22.864Z - debug: response -> neovim.api.nvim_command: null
+2018-02-03T23:20:22.864Z - debug: request -> neovim.api.nvim_command
+2018-02-03T23:20:22.864Z - debug: response -> neovim.api.nvim_command: null
+2018-02-03T23:20:22.865Z - debug: request -> neovim.api.nvim_command
+2018-02-03T23:20:22.865Z - debug: response -> neovim.api.nvim_command: null
+2018-02-03T23:20:22.865Z - debug: request -> neovim.api.nvim_command
+2018-02-03T23:20:22.865Z - debug: response -> neovim.api.nvim_command: null
+2018-02-03T23:20:28.496Z - info: handleNotification:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-03T23:20:28.496Z - debug: host.handlePlugin:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-03T23:20:28.496Z - debug: getPlugin.shouldCache true
+2018-02-03T23:20:28.498Z - debug: request -> neovim.api.nvim_get_current_buf
+2018-02-03T23:20:28.498Z - debug: response -> neovim.api.nvim_get_current_buf: [object Object]
+2018-02-03T23:20:28.499Z - debug: request -> neovim.api.nvim_get_current_win
+2018-02-03T23:20:28.499Z - debug: response -> neovim.api.nvim_get_current_win: [object Object]
+2018-02-03T23:20:28.499Z - debug: request -> neovim.api.nvim_win_get_cursor
+2018-02-03T23:20:28.500Z - debug: response -> neovim.api.nvim_win_get_cursor: 5,0
+2018-02-03T23:20:28.501Z - debug: request -> neovim.api.nvim_eval
+2018-02-03T23:20:28.501Z - debug: response -> neovim.api.nvim_eval: nvim
+2018-02-03T23:20:28.501Z - debug: request -> neovim.api.nvim_eval
+2018-02-03T23:20:28.502Z - debug: response -> neovim.api.nvim_eval: 0
+2018-02-03T23:20:28.502Z - debug: request -> neovim.api.nvim_eval
+2018-02-03T23:20:28.502Z - debug: response -> neovim.api.nvim_eval: -1
+2018-02-03T23:20:28.503Z - debug: request -> neovim.api.nvim_buf_set_lines
+2018-02-03T23:20:28.503Z - debug: request -> neovim.api.nvim_win_set_cursor
+2018-02-03T23:20:28.503Z - debug: request -> neovim.api.nvim_feedkeys
+2018-02-03T23:20:28.504Z - debug: response -> neovim.api.nvim_buf_set_lines: null
+2018-02-03T23:20:28.529Z - debug: response -> neovim.api.nvim_win_set_cursor: null
+2018-02-03T23:20:28.529Z - debug: response -> neovim.api.nvim_feedkeys: null
+2018-02-03T23:20:45.266Z - info: handleNotification:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-03T23:20:45.266Z - debug: host.handlePlugin:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-03T23:20:45.266Z - debug: getPlugin.shouldCache true
+2018-02-03T23:20:45.266Z - debug: request -> neovim.api.nvim_get_current_buf
+2018-02-03T23:20:45.268Z - debug: response -> neovim.api.nvim_get_current_buf: [object Object]
+2018-02-03T23:20:45.268Z - debug: request -> neovim.api.nvim_get_current_win
+2018-02-03T23:20:45.269Z - debug: response -> neovim.api.nvim_get_current_win: [object Object]
+2018-02-03T23:20:45.270Z - debug: request -> neovim.api.nvim_win_get_cursor
+2018-02-03T23:20:45.271Z - debug: response -> neovim.api.nvim_win_get_cursor: 7,0
+2018-02-03T23:20:45.271Z - debug: request -> neovim.api.nvim_eval
+2018-02-03T23:20:45.273Z - debug: response -> neovim.api.nvim_eval: 
+2018-02-03T23:20:45.273Z - debug: request -> neovim.api.nvim_eval
+2018-02-03T23:20:45.274Z - debug: response -> neovim.api.nvim_eval: 0
+2018-02-03T23:20:45.275Z - debug: request -> neovim.api.nvim_eval
+2018-02-03T23:20:45.276Z - debug: response -> neovim.api.nvim_eval: -1
+2018-02-03T23:20:45.276Z - debug: request -> neovim.api.nvim_buf_set_lines
+2018-02-03T23:20:45.277Z - debug: request -> neovim.api.nvim_win_set_cursor
+2018-02-03T23:20:45.277Z - debug: request -> neovim.api.nvim_feedkeys
+2018-02-03T23:20:45.277Z - debug: response -> neovim.api.nvim_buf_set_lines: null
+2018-02-03T23:20:45.278Z - debug: response -> neovim.api.nvim_win_set_cursor: null
+2018-02-03T23:20:45.278Z - debug: response -> neovim.api.nvim_feedkeys: null
+2018-02-03T23:20:57.157Z - info: handleNotification:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-03T23:20:57.157Z - debug: host.handlePlugin:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-03T23:20:57.158Z - debug: getPlugin.shouldCache true
+2018-02-03T23:20:57.158Z - debug: request -> neovim.api.nvim_get_current_buf
+2018-02-03T23:20:57.159Z - debug: response -> neovim.api.nvim_get_current_buf: [object Object]
+2018-02-03T23:20:57.160Z - debug: request -> neovim.api.nvim_get_current_win
+2018-02-03T23:20:57.161Z - debug: response -> neovim.api.nvim_get_current_win: [object Object]
+2018-02-03T23:20:57.162Z - debug: request -> neovim.api.nvim_win_get_cursor
+2018-02-03T23:20:57.163Z - debug: response -> neovim.api.nvim_win_get_cursor: 5,0
+2018-02-03T23:20:57.164Z - debug: request -> neovim.api.nvim_eval
+2018-02-03T23:20:57.164Z - debug: response -> neovim.api.nvim_eval: nvim
+2018-02-03T23:20:57.164Z - debug: request -> neovim.api.nvim_eval
+2018-02-03T23:20:57.166Z - debug: response -> neovim.api.nvim_eval: 0
+2018-02-03T23:20:57.166Z - debug: request -> neovim.api.nvim_eval
+2018-02-03T23:20:57.167Z - debug: response -> neovim.api.nvim_eval: 0
+2018-02-03T23:20:57.168Z - debug: request -> neovim.api.nvim_buf_set_lines
+2018-02-03T23:20:57.168Z - debug: request -> neovim.api.nvim_win_set_cursor
+2018-02-03T23:20:57.168Z - debug: request -> neovim.api.nvim_feedkeys
+2018-02-03T23:20:57.169Z - debug: response -> neovim.api.nvim_buf_set_lines: null
+2018-02-03T23:20:57.170Z - debug: response -> neovim.api.nvim_win_set_cursor: null
+2018-02-03T23:20:57.170Z - debug: response -> neovim.api.nvim_feedkeys: null
+2018-02-03T23:21:01.715Z - info: handleNotification:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-03T23:21:01.715Z - debug: host.handlePlugin:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-03T23:21:01.715Z - debug: getPlugin.shouldCache true
+2018-02-03T23:21:01.716Z - debug: request -> neovim.api.nvim_get_current_buf
+2018-02-03T23:21:01.718Z - debug: response -> neovim.api.nvim_get_current_buf: [object Object]
+2018-02-03T23:21:01.718Z - debug: request -> neovim.api.nvim_get_current_win
+2018-02-03T23:21:01.725Z - debug: response -> neovim.api.nvim_get_current_win: [object Object]
+2018-02-03T23:21:01.726Z - debug: request -> neovim.api.nvim_win_get_cursor
+2018-02-03T23:21:01.728Z - debug: response -> neovim.api.nvim_win_get_cursor: 5,0
+2018-02-03T23:21:01.728Z - debug: request -> neovim.api.nvim_eval
+2018-02-03T23:21:01.729Z - debug: response -> neovim.api.nvim_eval: nvim
+2018-02-03T23:21:01.729Z - debug: request -> neovim.api.nvim_eval
+2018-02-03T23:21:01.731Z - debug: response -> neovim.api.nvim_eval: 0
+2018-02-03T23:21:01.731Z - debug: request -> neovim.api.nvim_eval
+2018-02-03T23:21:01.732Z - debug: response -> neovim.api.nvim_eval: 0
+2018-02-03T23:21:01.732Z - debug: request -> neovim.api.nvim_buf_set_lines
+2018-02-03T23:21:01.732Z - debug: request -> neovim.api.nvim_win_set_cursor
+2018-02-03T23:21:01.732Z - debug: request -> neovim.api.nvim_feedkeys
+2018-02-03T23:21:01.733Z - debug: response -> neovim.api.nvim_buf_set_lines: null
+2018-02-03T23:21:01.735Z - debug: response -> neovim.api.nvim_win_set_cursor: null
+2018-02-03T23:21:01.735Z - debug: response -> neovim.api.nvim_feedkeys: null
+2018-02-03T23:21:56.292Z - debug: host.start
+2018-02-03T23:21:56.302Z - info: handleRequest:  poll
+2018-02-03T23:21:56.308Z - debug: request received:  poll
+2018-02-03T23:22:07.425Z - debug: host.start
+2018-02-03T23:22:07.437Z - info: handleRequest:  poll
+2018-02-03T23:22:07.444Z - debug: request received:  poll
+2018-02-03T23:22:07.445Z - info: handleRequest:  /Users/calbertts/.config/nvim/rplugin/node/test:autocmd:BufEnter:*.js
+2018-02-03T23:22:07.445Z - debug: request received:  /Users/calbertts/.config/nvim/rplugin/node/test:autocmd:BufEnter:*.js
+2018-02-03T23:22:07.445Z - debug: host.handlePlugin:  /Users/calbertts/.config/nvim/rplugin/node/test:autocmd:BufEnter:*.js
+2018-02-03T23:22:07.505Z - debug: getPlugin.shouldCache true
+2018-02-03T23:22:07.505Z - debug: request -> neovim.api.nvim_command
+2018-02-03T23:22:07.506Z - debug: response -> neovim.api.nvim_command: null
+2018-02-03T23:22:07.506Z - debug: request -> neovim.api.nvim_command
+2018-02-03T23:22:07.506Z - debug: response -> neovim.api.nvim_command: null
+2018-02-03T23:22:07.506Z - debug: request -> neovim.api.nvim_command
+2018-02-03T23:22:07.507Z - debug: response -> neovim.api.nvim_command: null
+2018-02-03T23:22:07.507Z - debug: request -> neovim.api.nvim_command
+2018-02-03T23:22:07.507Z - debug: response -> neovim.api.nvim_command: null
+2018-02-03T23:22:07.507Z - debug: request -> neovim.api.nvim_command
+2018-02-03T23:22:07.507Z - debug: response -> neovim.api.nvim_command: null
+2018-02-03T23:22:14.966Z - info: handleNotification:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-03T23:22:14.966Z - debug: host.handlePlugin:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-03T23:22:14.966Z - debug: getPlugin.shouldCache true
+2018-02-03T23:22:14.967Z - debug: request -> neovim.api.nvim_get_current_buf
+2018-02-03T23:22:14.968Z - debug: response -> neovim.api.nvim_get_current_buf: [object Object]
+2018-02-03T23:22:14.969Z - debug: request -> neovim.api.nvim_get_current_win
+2018-02-03T23:22:14.970Z - debug: response -> neovim.api.nvim_get_current_win: [object Object]
+2018-02-03T23:22:14.970Z - debug: request -> neovim.api.nvim_win_get_cursor
+2018-02-03T23:22:14.971Z - debug: response -> neovim.api.nvim_win_get_cursor: 3,4
+2018-02-03T23:22:14.972Z - debug: request -> neovim.api.nvim_eval
+2018-02-03T23:22:14.973Z - debug: response -> neovim.api.nvim_eval: let
+2018-02-03T23:22:14.973Z - debug: request -> neovim.api.nvim_eval
+2018-02-03T23:22:14.975Z - debug: response -> neovim.api.nvim_eval: 4
+2018-02-03T23:22:14.975Z - debug: request -> neovim.api.nvim_eval
+2018-02-03T23:22:14.976Z - debug: response -> neovim.api.nvim_eval: 4
+2018-02-03T23:22:14.977Z - debug: request -> neovim.api.nvim_buf_set_lines
+2018-02-03T23:22:14.978Z - debug: request -> neovim.api.nvim_win_set_cursor
+2018-02-03T23:22:14.978Z - debug: request -> neovim.api.nvim_feedkeys
+2018-02-03T23:22:14.980Z - debug: response -> neovim.api.nvim_buf_set_lines: null
+2018-02-03T23:22:15.014Z - debug: response -> neovim.api.nvim_win_set_cursor: null
+2018-02-03T23:22:15.014Z - debug: response -> neovim.api.nvim_feedkeys: null
+2018-02-03T23:23:41.345Z - info: handleNotification:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-03T23:23:41.345Z - debug: host.handlePlugin:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-03T23:23:41.345Z - debug: getPlugin.shouldCache true
+2018-02-03T23:23:41.346Z - debug: request -> neovim.api.nvim_get_current_buf
+2018-02-03T23:23:41.347Z - debug: response -> neovim.api.nvim_get_current_buf: [object Object]
+2018-02-03T23:23:41.347Z - debug: request -> neovim.api.nvim_get_current_win
+2018-02-03T23:23:41.349Z - debug: response -> neovim.api.nvim_get_current_win: [object Object]
+2018-02-03T23:23:41.349Z - debug: request -> neovim.api.nvim_win_get_cursor
+2018-02-03T23:23:41.351Z - debug: response -> neovim.api.nvim_win_get_cursor: 4,26
+2018-02-03T23:23:41.351Z - debug: request -> neovim.api.nvim_eval
+2018-02-03T23:23:41.352Z - debug: response -> neovim.api.nvim_eval: importedProducts
+2018-02-03T23:23:41.353Z - debug: request -> neovim.api.nvim_eval
+2018-02-03T23:23:41.354Z - debug: response -> neovim.api.nvim_eval: 4
+2018-02-03T23:23:41.354Z - debug: request -> neovim.api.nvim_eval
+2018-02-03T23:23:41.355Z - debug: response -> neovim.api.nvim_eval: 2
+2018-02-03T23:23:41.355Z - debug: request -> neovim.api.nvim_buf_set_lines
+2018-02-03T23:23:41.355Z - debug: request -> neovim.api.nvim_win_set_cursor
+2018-02-03T23:23:41.355Z - debug: request -> neovim.api.nvim_feedkeys
+2018-02-03T23:23:41.357Z - debug: response -> neovim.api.nvim_buf_set_lines: null
+2018-02-03T23:23:41.380Z - debug: response -> neovim.api.nvim_win_set_cursor: null
+2018-02-03T23:23:41.380Z - debug: response -> neovim.api.nvim_feedkeys: null
+2018-02-03T23:26:45.610Z - debug: host.start
+2018-02-03T23:26:45.623Z - info: handleRequest:  poll
+2018-02-03T23:26:45.629Z - debug: request received:  poll
+2018-02-03T23:26:54.729Z - debug: host.start
+2018-02-03T23:26:54.742Z - info: handleRequest:  poll
+2018-02-03T23:26:54.751Z - debug: request received:  poll
+2018-02-03T23:26:54.752Z - info: handleRequest:  /Users/calbertts/.config/nvim/rplugin/node/test:autocmd:BufEnter:*.js
+2018-02-03T23:26:54.752Z - debug: request received:  /Users/calbertts/.config/nvim/rplugin/node/test:autocmd:BufEnter:*.js
+2018-02-03T23:26:54.753Z - debug: host.handlePlugin:  /Users/calbertts/.config/nvim/rplugin/node/test:autocmd:BufEnter:*.js
+2018-02-03T23:26:54.809Z - debug: getPlugin.shouldCache true
+2018-02-03T23:26:54.810Z - debug: request -> neovim.api.nvim_command
+2018-02-03T23:26:54.810Z - debug: response -> neovim.api.nvim_command: null
+2018-02-03T23:26:54.811Z - debug: request -> neovim.api.nvim_command
+2018-02-03T23:26:54.811Z - debug: response -> neovim.api.nvim_command: null
+2018-02-03T23:26:54.811Z - debug: request -> neovim.api.nvim_command
+2018-02-03T23:26:54.811Z - debug: response -> neovim.api.nvim_command: null
+2018-02-03T23:26:54.811Z - debug: request -> neovim.api.nvim_command
+2018-02-03T23:26:54.812Z - debug: response -> neovim.api.nvim_command: null
+2018-02-03T23:26:54.812Z - debug: request -> neovim.api.nvim_command
+2018-02-03T23:26:54.812Z - debug: response -> neovim.api.nvim_command: null
+2018-02-03T23:26:59.809Z - info: handleNotification:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-03T23:26:59.809Z - debug: host.handlePlugin:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-03T23:26:59.809Z - debug: getPlugin.shouldCache true
+2018-02-03T23:26:59.811Z - debug: request -> neovim.api.nvim_get_current_buf
+2018-02-03T23:26:59.811Z - debug: response -> neovim.api.nvim_get_current_buf: [object Object]
+2018-02-03T23:26:59.812Z - debug: request -> neovim.api.nvim_get_current_win
+2018-02-03T23:26:59.813Z - debug: response -> neovim.api.nvim_get_current_win: [object Object]
+2018-02-03T23:26:59.813Z - debug: request -> neovim.api.nvim_win_get_cursor
+2018-02-03T23:26:59.815Z - debug: response -> neovim.api.nvim_win_get_cursor: 4,4
+2018-02-03T23:26:59.815Z - debug: request -> neovim.api.nvim_eval
+2018-02-03T23:26:59.816Z - debug: response -> neovim.api.nvim_eval: expect
+2018-02-03T23:26:59.816Z - debug: request -> neovim.api.nvim_eval
+2018-02-03T23:26:59.817Z - debug: response -> neovim.api.nvim_eval: 4
+2018-02-03T23:26:59.817Z - debug: request -> neovim.api.nvim_eval
+2018-02-03T23:26:59.819Z - debug: response -> neovim.api.nvim_eval: 2
+2018-02-03T23:26:59.820Z - debug: request -> neovim.api.nvim_buf_set_lines
+2018-02-03T23:26:59.820Z - debug: request -> neovim.api.nvim_win_set_cursor
+2018-02-03T23:26:59.820Z - debug: request -> neovim.api.nvim_feedkeys
+2018-02-03T23:26:59.820Z - debug: response -> neovim.api.nvim_buf_set_lines: null
+2018-02-03T23:26:59.849Z - debug: response -> neovim.api.nvim_win_set_cursor: null
+2018-02-03T23:26:59.849Z - debug: response -> neovim.api.nvim_feedkeys: null
+2018-02-03T23:28:07.132Z - debug: host.start
+2018-02-03T23:28:07.143Z - info: handleRequest:  poll
+2018-02-03T23:28:07.150Z - debug: request received:  poll
+2018-02-03T23:30:57.913Z - debug: host.start
+2018-02-03T23:30:57.927Z - info: handleRequest:  poll
+2018-02-03T23:30:57.934Z - debug: request received:  poll
+2018-02-03T23:31:07.369Z - debug: host.start
+2018-02-03T23:31:07.382Z - info: handleRequest:  poll
+2018-02-03T23:31:07.390Z - debug: request received:  poll
+2018-02-03T23:31:07.391Z - info: handleRequest:  /Users/calbertts/.config/nvim/rplugin/node/test:autocmd:BufEnter:*.js
+2018-02-03T23:31:07.391Z - debug: request received:  /Users/calbertts/.config/nvim/rplugin/node/test:autocmd:BufEnter:*.js
+2018-02-03T23:31:07.392Z - debug: host.handlePlugin:  /Users/calbertts/.config/nvim/rplugin/node/test:autocmd:BufEnter:*.js
+2018-02-03T23:31:07.450Z - debug: getPlugin.shouldCache true
+2018-02-03T23:31:07.450Z - debug: request -> neovim.api.nvim_command
+2018-02-03T23:31:07.451Z - debug: response -> neovim.api.nvim_command: null
+2018-02-03T23:31:07.451Z - debug: request -> neovim.api.nvim_command
+2018-02-03T23:31:07.452Z - debug: response -> neovim.api.nvim_command: null
+2018-02-03T23:31:07.452Z - debug: request -> neovim.api.nvim_command
+2018-02-03T23:31:07.452Z - debug: response -> neovim.api.nvim_command: null
+2018-02-03T23:31:07.452Z - debug: request -> neovim.api.nvim_command
+2018-02-03T23:31:07.452Z - debug: response -> neovim.api.nvim_command: null
+2018-02-03T23:31:07.452Z - debug: request -> neovim.api.nvim_command
+2018-02-03T23:31:07.452Z - debug: response -> neovim.api.nvim_command: null
+2018-02-03T23:31:12.065Z - info: handleNotification:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-03T23:31:12.065Z - debug: host.handlePlugin:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-03T23:31:12.065Z - debug: getPlugin.shouldCache true
+2018-02-03T23:31:12.066Z - debug: request -> neovim.api.nvim_get_current_buf
+2018-02-03T23:31:12.067Z - debug: response -> neovim.api.nvim_get_current_buf: [object Object]
+2018-02-03T23:31:12.067Z - debug: request -> neovim.api.nvim_get_current_win
+2018-02-03T23:31:12.068Z - debug: response -> neovim.api.nvim_get_current_win: [object Object]
+2018-02-03T23:31:12.069Z - debug: request -> neovim.api.nvim_win_get_cursor
+2018-02-03T23:31:12.071Z - debug: response -> neovim.api.nvim_win_get_cursor: 4,9
+2018-02-03T23:31:12.071Z - debug: request -> neovim.api.nvim_eval
+2018-02-03T23:31:12.072Z - debug: response -> neovim.api.nvim_eval: expect
+2018-02-03T23:31:12.072Z - debug: request -> neovim.api.nvim_eval
+2018-02-03T23:31:12.073Z - debug: response -> neovim.api.nvim_eval: 4
+2018-02-03T23:31:12.074Z - debug: request -> neovim.api.nvim_eval
+2018-02-03T23:31:12.075Z - debug: response -> neovim.api.nvim_eval: 2
+2018-02-03T23:31:12.076Z - debug: request -> neovim.api.nvim_buf_set_lines
+2018-02-03T23:31:12.076Z - debug: request -> neovim.api.nvim_win_set_cursor
+2018-02-03T23:31:12.077Z - debug: request -> neovim.api.nvim_feedkeys
+2018-02-03T23:31:12.077Z - debug: response -> neovim.api.nvim_buf_set_lines: null
+2018-02-03T23:31:12.107Z - debug: response -> neovim.api.nvim_win_set_cursor: null
+2018-02-03T23:31:12.107Z - debug: response -> neovim.api.nvim_feedkeys: null
+2018-02-03T23:31:24.400Z - info: handleNotification:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-03T23:31:24.400Z - debug: host.handlePlugin:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-03T23:31:24.400Z - debug: getPlugin.shouldCache true
+2018-02-03T23:31:24.401Z - debug: request -> neovim.api.nvim_get_current_buf
+2018-02-03T23:31:24.402Z - debug: response -> neovim.api.nvim_get_current_buf: [object Object]
+2018-02-03T23:31:24.402Z - debug: request -> neovim.api.nvim_get_current_win
+2018-02-03T23:31:24.404Z - debug: response -> neovim.api.nvim_get_current_win: [object Object]
+2018-02-03T23:31:24.404Z - debug: request -> neovim.api.nvim_win_get_cursor
+2018-02-03T23:31:24.406Z - debug: response -> neovim.api.nvim_win_get_cursor: 5,17
+2018-02-03T23:31:24.406Z - debug: request -> neovim.api.nvim_eval
+2018-02-03T23:31:24.407Z - debug: response -> neovim.api.nvim_eval: expect
+2018-02-03T23:31:24.408Z - debug: request -> neovim.api.nvim_eval
+2018-02-03T23:31:24.409Z - debug: response -> neovim.api.nvim_eval: 4
+2018-02-03T23:31:24.409Z - debug: request -> neovim.api.nvim_eval
+2018-02-03T23:31:24.410Z - debug: response -> neovim.api.nvim_eval: 2
+2018-02-03T23:31:24.410Z - debug: request -> neovim.api.nvim_buf_set_lines
+2018-02-03T23:31:24.410Z - debug: request -> neovim.api.nvim_win_set_cursor
+2018-02-03T23:31:24.410Z - debug: request -> neovim.api.nvim_feedkeys
+2018-02-03T23:31:24.412Z - debug: response -> neovim.api.nvim_buf_set_lines: null
+2018-02-03T23:31:24.413Z - debug: response -> neovim.api.nvim_win_set_cursor: null
+2018-02-03T23:31:24.413Z - debug: response -> neovim.api.nvim_feedkeys: null
+2018-02-04T18:45:05.642Z - debug: host.start
+2018-02-04T18:45:05.654Z - info: handleRequest:  poll
+2018-02-04T18:45:05.666Z - debug: request received:  poll
+2018-02-04T18:45:05.667Z - info: handleRequest:  specs
+2018-02-04T18:45:14.170Z - debug: host.start
+2018-02-04T18:45:14.197Z - info: handleRequest:  poll
+2018-02-04T18:45:14.206Z - debug: request received:  poll
+2018-02-04T18:45:14.207Z - info: handleRequest:  /Users/calbertts/.config/nvim/rplugin/node/test:autocmd:BufEnter:*.js
+2018-02-04T18:45:14.207Z - debug: request received:  /Users/calbertts/.config/nvim/rplugin/node/test:autocmd:BufEnter:*.js
+2018-02-04T18:45:14.208Z - debug: host.handlePlugin:  /Users/calbertts/.config/nvim/rplugin/node/test:autocmd:BufEnter:*.js
+2018-02-04T18:45:14.308Z - debug: getPlugin.shouldCache true
+2018-02-04T18:45:14.309Z - debug: request -> neovim.api.nvim_command
+2018-02-04T18:45:14.310Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T18:45:14.310Z - debug: request -> neovim.api.nvim_command
+2018-02-04T18:45:14.310Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T18:45:14.310Z - debug: request -> neovim.api.nvim_command
+2018-02-04T18:45:14.310Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T18:45:14.310Z - debug: request -> neovim.api.nvim_command
+2018-02-04T18:45:14.310Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T18:45:14.311Z - debug: request -> neovim.api.nvim_command
+2018-02-04T18:45:14.311Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T18:45:17.508Z - info: handleNotification:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-04T18:45:17.509Z - debug: host.handlePlugin:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-04T18:45:17.509Z - debug: getPlugin.shouldCache true
+2018-02-04T18:45:17.510Z - debug: request -> neovim.api.nvim_get_current_buf
+2018-02-04T18:45:17.510Z - debug: response -> neovim.api.nvim_get_current_buf: [object Object]
+2018-02-04T18:45:17.511Z - debug: request -> neovim.api.nvim_get_current_win
+2018-02-04T18:45:17.511Z - debug: response -> neovim.api.nvim_get_current_win: [object Object]
+2018-02-04T18:45:17.511Z - debug: request -> neovim.api.nvim_win_get_cursor
+2018-02-04T18:45:17.512Z - debug: response -> neovim.api.nvim_win_get_cursor: 2,3
+2018-02-04T18:45:17.512Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T18:45:17.512Z - debug: response -> neovim.api.nvim_eval: then
+2018-02-04T18:45:17.512Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T18:45:17.513Z - debug: response -> neovim.api.nvim_eval: 2
+2018-02-04T18:45:17.513Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T18:45:17.513Z - debug: response -> neovim.api.nvim_eval: 4
+2018-02-04T18:45:17.514Z - debug: request -> neovim.api.nvim_buf_set_lines
+2018-02-04T18:45:17.514Z - debug: request -> neovim.api.nvim_win_set_cursor
+2018-02-04T18:45:17.515Z - debug: request -> neovim.api.nvim_feedkeys
+2018-02-04T18:45:17.515Z - debug: response -> neovim.api.nvim_buf_set_lines: null
+2018-02-04T18:45:17.541Z - debug: response -> neovim.api.nvim_win_set_cursor: null
+2018-02-04T18:45:17.541Z - debug: response -> neovim.api.nvim_feedkeys: null
+2018-02-04T18:50:05.394Z - debug: host.start
+2018-02-04T18:50:05.408Z - info: handleRequest:  poll
+2018-02-04T18:50:05.418Z - debug: request received:  poll
+2018-02-04T18:50:05.419Z - info: handleRequest:  /Users/calbertts/.config/nvim/rplugin/node/test:autocmd:BufEnter:*.js
+2018-02-04T18:50:05.419Z - debug: request received:  /Users/calbertts/.config/nvim/rplugin/node/test:autocmd:BufEnter:*.js
+2018-02-04T18:50:05.419Z - debug: host.handlePlugin:  /Users/calbertts/.config/nvim/rplugin/node/test:autocmd:BufEnter:*.js
+2018-02-04T18:50:05.521Z - debug: getPlugin.shouldCache true
+2018-02-04T18:50:05.521Z - debug: request -> neovim.api.nvim_command
+2018-02-04T18:50:05.522Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T18:50:05.522Z - debug: request -> neovim.api.nvim_command
+2018-02-04T18:50:05.523Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T18:50:05.523Z - debug: request -> neovim.api.nvim_command
+2018-02-04T18:50:05.523Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T18:50:05.523Z - debug: request -> neovim.api.nvim_command
+2018-02-04T18:50:05.523Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T18:50:05.523Z - debug: request -> neovim.api.nvim_command
+2018-02-04T18:50:05.523Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T18:50:08.977Z - info: handleNotification:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-04T18:50:08.977Z - debug: host.handlePlugin:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-04T18:50:08.977Z - debug: getPlugin.shouldCache true
+2018-02-04T18:50:08.978Z - debug: request -> neovim.api.nvim_get_current_buf
+2018-02-04T18:50:08.978Z - debug: response -> neovim.api.nvim_get_current_buf: [object Object]
+2018-02-04T18:50:08.979Z - debug: request -> neovim.api.nvim_get_current_win
+2018-02-04T18:50:08.979Z - debug: response -> neovim.api.nvim_get_current_win: [object Object]
+2018-02-04T18:50:08.979Z - debug: request -> neovim.api.nvim_win_get_cursor
+2018-02-04T18:50:08.980Z - debug: response -> neovim.api.nvim_win_get_cursor: 3,4
+2018-02-04T18:50:08.980Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T18:50:08.980Z - debug: response -> neovim.api.nvim_eval: let
+2018-02-04T18:50:08.981Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T18:50:08.981Z - debug: response -> neovim.api.nvim_eval: 4
+2018-02-04T18:50:08.981Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T18:50:08.981Z - debug: response -> neovim.api.nvim_eval: 4
+2018-02-04T18:50:08.982Z - debug: request -> neovim.api.nvim_buf_set_lines
+2018-02-04T18:50:08.983Z - debug: request -> neovim.api.nvim_win_set_cursor
+2018-02-04T18:50:08.983Z - debug: request -> neovim.api.nvim_feedkeys
+2018-02-04T18:50:08.983Z - debug: response -> neovim.api.nvim_buf_set_lines: null
+2018-02-04T18:50:09.015Z - debug: response -> neovim.api.nvim_win_set_cursor: null
+2018-02-04T18:50:09.015Z - debug: response -> neovim.api.nvim_feedkeys: null
+2018-02-04T18:59:04.291Z - debug: host.start
+2018-02-04T18:59:04.302Z - info: handleRequest:  poll
+2018-02-04T18:59:04.309Z - debug: request received:  poll
+2018-02-04T18:59:13.341Z - debug: host.start
+2018-02-04T18:59:13.352Z - info: handleRequest:  poll
+2018-02-04T18:59:13.360Z - debug: request received:  poll
+2018-02-04T18:59:13.361Z - info: handleRequest:  /Users/calbertts/.config/nvim/rplugin/node/test:autocmd:BufEnter:*.js
+2018-02-04T18:59:13.361Z - debug: request received:  /Users/calbertts/.config/nvim/rplugin/node/test:autocmd:BufEnter:*.js
+2018-02-04T18:59:13.361Z - debug: host.handlePlugin:  /Users/calbertts/.config/nvim/rplugin/node/test:autocmd:BufEnter:*.js
+2018-02-04T18:59:13.453Z - debug: getPlugin.shouldCache true
+2018-02-04T18:59:13.454Z - debug: request -> neovim.api.nvim_command
+2018-02-04T18:59:13.454Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T18:59:13.455Z - debug: request -> neovim.api.nvim_command
+2018-02-04T18:59:13.455Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T18:59:13.455Z - debug: request -> neovim.api.nvim_command
+2018-02-04T18:59:13.455Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T18:59:13.455Z - debug: request -> neovim.api.nvim_command
+2018-02-04T18:59:13.456Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T18:59:13.456Z - debug: request -> neovim.api.nvim_command
+2018-02-04T18:59:13.456Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T18:59:13.456Z - debug: request -> neovim.api.nvim_command
+2018-02-04T18:59:13.456Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T18:59:13.456Z - debug: request -> neovim.api.nvim_command
+2018-02-04T18:59:13.456Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T18:59:13.457Z - debug: request -> neovim.api.nvim_command
+2018-02-04T18:59:13.457Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T18:59:18.860Z - info: handleNotification:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-04T18:59:18.860Z - debug: host.handlePlugin:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-04T18:59:18.860Z - debug: getPlugin.shouldCache true
+2018-02-04T18:59:18.863Z - info: [test] args [ 'console', 'error' ]
+2018-02-04T18:59:18.864Z - debug: request -> neovim.api.nvim_get_current_buf
+2018-02-04T18:59:18.865Z - debug: response -> neovim.api.nvim_get_current_buf: [object Object]
+2018-02-04T18:59:18.865Z - debug: request -> neovim.api.nvim_get_current_win
+2018-02-04T18:59:18.865Z - debug: response -> neovim.api.nvim_get_current_win: [object Object]
+2018-02-04T18:59:18.866Z - debug: request -> neovim.api.nvim_win_get_cursor
+2018-02-04T18:59:18.867Z - debug: response -> neovim.api.nvim_win_get_cursor: 3,8
+2018-02-04T18:59:18.867Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T18:59:18.867Z - debug: response -> neovim.api.nvim_eval: importedProducts
+2018-02-04T18:59:18.867Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T18:59:18.868Z - debug: response -> neovim.api.nvim_eval: 4
+2018-02-04T18:59:18.868Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T18:59:18.868Z - debug: response -> neovim.api.nvim_eval: 4
+2018-02-04T18:59:18.870Z - debug: request -> neovim.api.nvim_buf_set_lines
+2018-02-04T18:59:18.871Z - debug: request -> neovim.api.nvim_win_set_cursor
+2018-02-04T18:59:18.871Z - debug: request -> neovim.api.nvim_feedkeys
+2018-02-04T18:59:18.871Z - debug: response -> neovim.api.nvim_buf_set_lines: null
+2018-02-04T18:59:18.899Z - debug: response -> neovim.api.nvim_win_set_cursor: null
+2018-02-04T18:59:18.899Z - debug: response -> neovim.api.nvim_feedkeys: null
+2018-02-04T18:59:23.295Z - info: handleNotification:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-04T18:59:23.295Z - debug: host.handlePlugin:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-04T18:59:23.295Z - debug: getPlugin.shouldCache true
+2018-02-04T18:59:23.295Z - info: [test] args [ 'console', 'log' ]
+2018-02-04T18:59:23.295Z - debug: request -> neovim.api.nvim_get_current_buf
+2018-02-04T18:59:23.296Z - debug: response -> neovim.api.nvim_get_current_buf: [object Object]
+2018-02-04T18:59:23.296Z - debug: request -> neovim.api.nvim_get_current_win
+2018-02-04T18:59:23.296Z - debug: response -> neovim.api.nvim_get_current_win: [object Object]
+2018-02-04T18:59:23.297Z - debug: request -> neovim.api.nvim_win_get_cursor
+2018-02-04T18:59:23.297Z - debug: response -> neovim.api.nvim_win_get_cursor: 3,8
+2018-02-04T18:59:23.297Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T18:59:23.297Z - debug: response -> neovim.api.nvim_eval: importedProducts
+2018-02-04T18:59:23.297Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T18:59:23.298Z - debug: response -> neovim.api.nvim_eval: 4
+2018-02-04T18:59:23.298Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T18:59:23.299Z - debug: response -> neovim.api.nvim_eval: 4
+2018-02-04T18:59:23.299Z - debug: request -> neovim.api.nvim_buf_set_lines
+2018-02-04T18:59:23.299Z - debug: request -> neovim.api.nvim_win_set_cursor
+2018-02-04T18:59:23.299Z - debug: request -> neovim.api.nvim_feedkeys
+2018-02-04T18:59:23.300Z - debug: response -> neovim.api.nvim_buf_set_lines: null
+2018-02-04T18:59:23.302Z - debug: response -> neovim.api.nvim_win_set_cursor: null
+2018-02-04T18:59:23.302Z - debug: response -> neovim.api.nvim_feedkeys: null
+2018-02-04T18:59:25.651Z - info: handleNotification:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-04T18:59:25.651Z - debug: host.handlePlugin:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-04T18:59:25.651Z - debug: getPlugin.shouldCache true
+2018-02-04T18:59:25.651Z - info: [test] args [ 'console', 'log' ]
+2018-02-04T18:59:25.651Z - debug: request -> neovim.api.nvim_get_current_buf
+2018-02-04T18:59:25.652Z - debug: response -> neovim.api.nvim_get_current_buf: [object Object]
+2018-02-04T18:59:25.652Z - debug: request -> neovim.api.nvim_get_current_win
+2018-02-04T18:59:25.658Z - debug: response -> neovim.api.nvim_get_current_win: [object Object]
+2018-02-04T18:59:25.659Z - debug: request -> neovim.api.nvim_win_get_cursor
+2018-02-04T18:59:25.660Z - debug: response -> neovim.api.nvim_win_get_cursor: 3,8
+2018-02-04T18:59:25.660Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T18:59:25.660Z - debug: response -> neovim.api.nvim_eval: importedProducts
+2018-02-04T18:59:25.660Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T18:59:25.661Z - debug: response -> neovim.api.nvim_eval: 4
+2018-02-04T18:59:25.661Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T18:59:25.661Z - debug: response -> neovim.api.nvim_eval: 4
+2018-02-04T18:59:25.662Z - debug: request -> neovim.api.nvim_buf_set_lines
+2018-02-04T18:59:25.662Z - debug: request -> neovim.api.nvim_win_set_cursor
+2018-02-04T18:59:25.662Z - debug: request -> neovim.api.nvim_feedkeys
+2018-02-04T18:59:25.663Z - debug: response -> neovim.api.nvim_buf_set_lines: null
+2018-02-04T18:59:25.685Z - debug: response -> neovim.api.nvim_win_set_cursor: null
+2018-02-04T18:59:25.685Z - debug: response -> neovim.api.nvim_feedkeys: null
+2018-02-04T18:59:27.438Z - info: handleNotification:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-04T18:59:27.439Z - debug: host.handlePlugin:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-04T18:59:27.439Z - debug: getPlugin.shouldCache true
+2018-02-04T18:59:27.439Z - info: [test] args [ 'console', 'error' ]
+2018-02-04T18:59:27.441Z - debug: request -> neovim.api.nvim_get_current_buf
+2018-02-04T18:59:27.441Z - debug: response -> neovim.api.nvim_get_current_buf: [object Object]
+2018-02-04T18:59:27.441Z - debug: request -> neovim.api.nvim_get_current_win
+2018-02-04T18:59:27.442Z - debug: response -> neovim.api.nvim_get_current_win: [object Object]
+2018-02-04T18:59:27.442Z - debug: request -> neovim.api.nvim_win_get_cursor
+2018-02-04T18:59:27.443Z - debug: response -> neovim.api.nvim_win_get_cursor: 3,8
+2018-02-04T18:59:27.443Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T18:59:27.444Z - debug: response -> neovim.api.nvim_eval: importedProducts
+2018-02-04T18:59:27.444Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T18:59:27.444Z - debug: response -> neovim.api.nvim_eval: 4
+2018-02-04T18:59:27.445Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T18:59:27.445Z - debug: response -> neovim.api.nvim_eval: 4
+2018-02-04T18:59:27.445Z - debug: request -> neovim.api.nvim_buf_set_lines
+2018-02-04T18:59:27.446Z - debug: request -> neovim.api.nvim_win_set_cursor
+2018-02-04T18:59:27.446Z - debug: request -> neovim.api.nvim_feedkeys
+2018-02-04T18:59:27.447Z - debug: response -> neovim.api.nvim_buf_set_lines: null
+2018-02-04T18:59:27.469Z - debug: response -> neovim.api.nvim_win_set_cursor: null
+2018-02-04T18:59:27.469Z - debug: response -> neovim.api.nvim_feedkeys: null
+2018-02-04T20:20:21.993Z - info: handleNotification:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-04T20:20:21.994Z - debug: host.handlePlugin:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-04T20:20:21.994Z - debug: getPlugin.shouldCache true
+2018-02-04T20:20:21.996Z - info: [test] args [ 'console', 'error' ]
+2018-02-04T20:20:21.997Z - debug: request -> neovim.api.nvim_get_current_buf
+2018-02-04T20:20:21.997Z - debug: response -> neovim.api.nvim_get_current_buf: [object Object]
+2018-02-04T20:20:21.998Z - debug: request -> neovim.api.nvim_get_current_win
+2018-02-04T20:20:21.998Z - debug: response -> neovim.api.nvim_get_current_win: [object Object]
+2018-02-04T20:20:21.998Z - debug: request -> neovim.api.nvim_win_get_cursor
+2018-02-04T20:20:21.999Z - debug: response -> neovim.api.nvim_win_get_cursor: 2,9
+2018-02-04T20:20:21.999Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T20:20:22.000Z - debug: response -> neovim.api.nvim_eval: response
+2018-02-04T20:20:22.000Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T20:20:22.001Z - debug: response -> neovim.api.nvim_eval: 2
+2018-02-04T20:20:22.001Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T20:20:22.002Z - debug: response -> neovim.api.nvim_eval: 4
+2018-02-04T20:20:22.002Z - debug: request -> neovim.api.nvim_buf_set_lines
+2018-02-04T20:20:22.003Z - debug: request -> neovim.api.nvim_win_set_cursor
+2018-02-04T20:20:22.005Z - debug: request -> neovim.api.nvim_feedkeys
+2018-02-04T20:20:22.006Z - debug: response -> neovim.api.nvim_buf_set_lines: null
+2018-02-04T20:20:22.047Z - debug: response -> neovim.api.nvim_win_set_cursor: null
+2018-02-04T20:20:22.048Z - debug: response -> neovim.api.nvim_feedkeys: null
+2018-02-04T20:21:34.428Z - debug: host.start
+2018-02-04T20:21:34.438Z - info: handleRequest:  poll
+2018-02-04T20:21:34.445Z - debug: request received:  poll
+2018-02-04T20:22:05.081Z - debug: host.start
+2018-02-04T20:22:05.097Z - info: handleRequest:  poll
+2018-02-04T20:22:05.115Z - debug: request received:  poll
+2018-02-04T20:22:05.116Z - info: handleRequest:  /Users/calbertts/.config/nvim/rplugin/node/test:autocmd:BufEnter:*.js
+2018-02-04T20:22:05.116Z - debug: request received:  /Users/calbertts/.config/nvim/rplugin/node/test:autocmd:BufEnter:*.js
+2018-02-04T20:22:05.117Z - debug: host.handlePlugin:  /Users/calbertts/.config/nvim/rplugin/node/test:autocmd:BufEnter:*.js
+2018-02-04T20:22:05.220Z - debug: getPlugin.shouldCache true
+2018-02-04T20:22:05.221Z - debug: request -> neovim.api.nvim_command
+2018-02-04T20:22:05.221Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T20:22:05.222Z - debug: request -> neovim.api.nvim_command
+2018-02-04T20:22:05.222Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T20:22:05.222Z - debug: request -> neovim.api.nvim_command
+2018-02-04T20:22:05.222Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T20:22:05.222Z - debug: request -> neovim.api.nvim_command
+2018-02-04T20:22:05.223Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T20:22:05.223Z - debug: request -> neovim.api.nvim_command
+2018-02-04T20:22:05.223Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T20:22:05.223Z - debug: request -> neovim.api.nvim_command
+2018-02-04T20:22:05.223Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T20:22:05.223Z - debug: request -> neovim.api.nvim_command
+2018-02-04T20:22:05.223Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T20:22:05.224Z - debug: request -> neovim.api.nvim_command
+2018-02-04T20:22:05.224Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T20:22:10.218Z - info: handleNotification:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-04T20:22:10.218Z - debug: host.handlePlugin:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-04T20:22:10.219Z - debug: getPlugin.shouldCache true
+2018-02-04T20:22:10.220Z - debug: request -> neovim.api.nvim_get_current_buf
+2018-02-04T20:22:10.221Z - debug: response -> neovim.api.nvim_get_current_buf: [object Object]
+2018-02-04T20:22:10.221Z - debug: request -> neovim.api.nvim_get_current_win
+2018-02-04T20:22:10.221Z - debug: response -> neovim.api.nvim_get_current_win: [object Object]
+2018-02-04T20:22:10.222Z - debug: request -> neovim.api.nvim_win_get_cursor
+2018-02-04T20:22:10.223Z - debug: response -> neovim.api.nvim_win_get_cursor: 3,8
+2018-02-04T20:22:10.223Z - info: [test] mode: undefined
+2018-02-04T20:22:10.223Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T20:22:10.223Z - debug: response -> neovim.api.nvim_eval: importedProducts
+2018-02-04T20:22:10.224Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T20:22:10.224Z - debug: response -> neovim.api.nvim_eval: 4
+2018-02-04T20:22:10.224Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T20:22:10.225Z - debug: response -> neovim.api.nvim_eval: 4
+2018-02-04T20:22:10.226Z - debug: request -> neovim.api.nvim_buf_set_lines
+2018-02-04T20:22:10.226Z - debug: request -> neovim.api.nvim_win_set_cursor
+2018-02-04T20:22:10.226Z - debug: request -> neovim.api.nvim_feedkeys
+2018-02-04T20:22:10.226Z - debug: response -> neovim.api.nvim_buf_set_lines: null
+2018-02-04T20:22:10.239Z - debug: response -> neovim.api.nvim_win_set_cursor: null
+2018-02-04T20:22:10.239Z - debug: response -> neovim.api.nvim_feedkeys: null
+2018-02-04T20:22:56.009Z - debug: host.start
+2018-02-04T20:22:56.020Z - info: handleRequest:  poll
+2018-02-04T20:22:56.027Z - debug: request received:  poll
+2018-02-04T20:23:00.737Z - debug: host.start
+2018-02-04T20:23:00.752Z - info: handleRequest:  poll
+2018-02-04T20:23:00.762Z - debug: request received:  poll
+2018-02-04T20:23:00.764Z - info: handleRequest:  /Users/calbertts/.config/nvim/rplugin/node/test:autocmd:BufEnter:*.js
+2018-02-04T20:23:00.764Z - debug: request received:  /Users/calbertts/.config/nvim/rplugin/node/test:autocmd:BufEnter:*.js
+2018-02-04T20:23:00.764Z - debug: host.handlePlugin:  /Users/calbertts/.config/nvim/rplugin/node/test:autocmd:BufEnter:*.js
+2018-02-04T20:23:00.832Z - debug: getPlugin.shouldCache true
+2018-02-04T20:23:00.832Z - debug: request -> neovim.api.nvim_command
+2018-02-04T20:23:00.833Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T20:23:00.833Z - debug: request -> neovim.api.nvim_command
+2018-02-04T20:23:00.834Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T20:23:00.834Z - debug: request -> neovim.api.nvim_command
+2018-02-04T20:23:00.834Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T20:23:00.834Z - debug: request -> neovim.api.nvim_command
+2018-02-04T20:23:00.834Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T20:23:00.835Z - debug: request -> neovim.api.nvim_command
+2018-02-04T20:23:00.835Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T20:23:00.835Z - debug: request -> neovim.api.nvim_command
+2018-02-04T20:23:00.835Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T20:23:00.835Z - debug: request -> neovim.api.nvim_command
+2018-02-04T20:23:00.835Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T20:23:00.835Z - debug: request -> neovim.api.nvim_command
+2018-02-04T20:23:00.836Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T20:23:03.425Z - info: handleNotification:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-04T20:23:03.425Z - debug: host.handlePlugin:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-04T20:23:03.425Z - debug: getPlugin.shouldCache true
+2018-02-04T20:23:03.427Z - debug: request -> neovim.api.nvim_get_current_buf
+2018-02-04T20:23:03.427Z - debug: response -> neovim.api.nvim_get_current_buf: [object Object]
+2018-02-04T20:23:03.428Z - debug: request -> neovim.api.nvim_get_current_win
+2018-02-04T20:23:03.428Z - debug: response -> neovim.api.nvim_get_current_win: [object Object]
+2018-02-04T20:23:03.428Z - debug: request -> neovim.api.nvim_win_get_cursor
+2018-02-04T20:23:03.429Z - debug: response -> neovim.api.nvim_win_get_cursor: 3,8
+2018-02-04T20:23:03.430Z - info: [test] mode: undefined
+2018-02-04T20:23:03.430Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T20:23:03.430Z - debug: response -> neovim.api.nvim_eval: importedProducts
+2018-02-04T20:23:03.430Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T20:23:03.431Z - debug: response -> neovim.api.nvim_eval: 4
+2018-02-04T20:23:03.431Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T20:23:03.432Z - debug: response -> neovim.api.nvim_eval: 4
+2018-02-04T20:23:03.433Z - debug: request -> neovim.api.nvim_buf_set_lines
+2018-02-04T20:23:03.433Z - debug: request -> neovim.api.nvim_win_set_cursor
+2018-02-04T20:23:03.433Z - debug: request -> neovim.api.nvim_feedkeys
+2018-02-04T20:23:03.434Z - debug: response -> neovim.api.nvim_buf_set_lines: null
+2018-02-04T20:23:03.450Z - debug: response -> neovim.api.nvim_win_set_cursor: null
+2018-02-04T20:23:03.450Z - debug: response -> neovim.api.nvim_feedkeys: null
+2018-02-04T20:28:29.442Z - debug: host.start
+2018-02-04T20:28:29.453Z - info: handleRequest:  poll
+2018-02-04T20:28:29.459Z - debug: request received:  poll
+2018-02-04T20:28:36.958Z - debug: host.start
+2018-02-04T20:28:36.972Z - info: handleRequest:  poll
+2018-02-04T20:28:36.981Z - debug: request received:  poll
+2018-02-04T20:28:36.982Z - info: handleRequest:  /Users/calbertts/.config/nvim/rplugin/node/test:autocmd:BufEnter:*.js
+2018-02-04T20:28:36.982Z - debug: request received:  /Users/calbertts/.config/nvim/rplugin/node/test:autocmd:BufEnter:*.js
+2018-02-04T20:28:36.983Z - debug: host.handlePlugin:  /Users/calbertts/.config/nvim/rplugin/node/test:autocmd:BufEnter:*.js
+2018-02-04T20:28:37.088Z - debug: getPlugin.shouldCache true
+2018-02-04T20:28:37.089Z - debug: request -> neovim.api.nvim_command
+2018-02-04T20:28:37.090Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T20:28:37.090Z - debug: request -> neovim.api.nvim_command
+2018-02-04T20:28:37.090Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T20:28:37.090Z - debug: request -> neovim.api.nvim_command
+2018-02-04T20:28:37.090Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T20:28:37.091Z - debug: request -> neovim.api.nvim_command
+2018-02-04T20:28:37.091Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T20:28:37.091Z - debug: request -> neovim.api.nvim_command
+2018-02-04T20:28:37.091Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T20:28:37.091Z - debug: request -> neovim.api.nvim_command
+2018-02-04T20:28:37.091Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T20:28:37.091Z - debug: request -> neovim.api.nvim_command
+2018-02-04T20:28:37.091Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T20:28:37.091Z - debug: request -> neovim.api.nvim_command
+2018-02-04T20:28:37.092Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T20:28:39.661Z - info: handleNotification:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-04T20:28:39.664Z - debug: host.handlePlugin:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-04T20:28:39.664Z - debug: getPlugin.shouldCache true
+2018-02-04T20:28:39.665Z - debug: request -> neovim.api.nvim_get_current_buf
+2018-02-04T20:28:39.666Z - debug: response -> neovim.api.nvim_get_current_buf: [object Object]
+2018-02-04T20:28:39.666Z - debug: request -> neovim.api.nvim_get_current_win
+2018-02-04T20:28:39.667Z - debug: response -> neovim.api.nvim_get_current_win: [object Object]
+2018-02-04T20:28:39.667Z - debug: request -> neovim.api.nvim_win_get_cursor
+2018-02-04T20:28:39.668Z - debug: response -> neovim.api.nvim_win_get_cursor: 3,8
+2018-02-04T20:28:39.668Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T20:28:39.668Z - debug: response -> neovim.api.nvim_eval: n
+2018-02-04T20:28:39.668Z - info: [test] mode: n
+2018-02-04T20:28:39.668Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T20:28:39.669Z - debug: response -> neovim.api.nvim_eval: importedProducts
+2018-02-04T20:28:39.669Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T20:28:39.669Z - debug: response -> neovim.api.nvim_eval: 4
+2018-02-04T20:28:39.669Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T20:28:39.669Z - debug: response -> neovim.api.nvim_eval: 4
+2018-02-04T20:28:39.671Z - debug: request -> neovim.api.nvim_buf_set_lines
+2018-02-04T20:28:39.671Z - debug: request -> neovim.api.nvim_win_set_cursor
+2018-02-04T20:28:39.671Z - debug: request -> neovim.api.nvim_feedkeys
+2018-02-04T20:28:39.671Z - debug: response -> neovim.api.nvim_buf_set_lines: null
+2018-02-04T20:28:39.688Z - debug: response -> neovim.api.nvim_win_set_cursor: null
+2018-02-04T20:28:39.688Z - debug: response -> neovim.api.nvim_feedkeys: null
+2018-02-04T20:39:06.561Z - debug: host.start
+2018-02-04T20:39:06.571Z - info: handleRequest:  poll
+2018-02-04T20:39:06.578Z - debug: request received:  poll
+2018-02-04T20:39:12.021Z - debug: host.start
+2018-02-04T20:39:12.031Z - info: handleRequest:  poll
+2018-02-04T20:39:12.038Z - debug: request received:  poll
+2018-02-04T20:39:12.039Z - info: handleRequest:  /Users/calbertts/.config/nvim/rplugin/node/test:autocmd:BufEnter:*.js
+2018-02-04T20:39:12.039Z - debug: request received:  /Users/calbertts/.config/nvim/rplugin/node/test:autocmd:BufEnter:*.js
+2018-02-04T20:39:12.039Z - debug: host.handlePlugin:  /Users/calbertts/.config/nvim/rplugin/node/test:autocmd:BufEnter:*.js
+2018-02-04T20:39:12.098Z - debug: getPlugin.shouldCache true
+2018-02-04T20:39:12.099Z - debug: request -> neovim.api.nvim_command
+2018-02-04T20:39:12.100Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T20:39:12.100Z - debug: request -> neovim.api.nvim_command
+2018-02-04T20:39:12.100Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T20:39:12.100Z - debug: request -> neovim.api.nvim_command
+2018-02-04T20:39:12.100Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T20:39:12.100Z - debug: request -> neovim.api.nvim_command
+2018-02-04T20:39:12.101Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T20:39:12.101Z - debug: request -> neovim.api.nvim_command
+2018-02-04T20:39:12.101Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T20:39:12.101Z - debug: request -> neovim.api.nvim_command
+2018-02-04T20:39:12.101Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T20:39:12.101Z - debug: request -> neovim.api.nvim_command
+2018-02-04T20:39:12.101Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T20:39:12.101Z - debug: request -> neovim.api.nvim_command
+2018-02-04T20:39:12.101Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T20:39:23.062Z - info: handleNotification:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-04T20:39:23.062Z - debug: host.handlePlugin:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-04T20:39:23.062Z - debug: getPlugin.shouldCache true
+2018-02-04T20:39:23.063Z - debug: request -> neovim.api.nvim_get_current_buf
+2018-02-04T20:39:23.064Z - debug: response -> neovim.api.nvim_get_current_buf: [object Object]
+2018-02-04T20:39:23.064Z - debug: request -> neovim.api.nvim_get_current_win
+2018-02-04T20:39:23.065Z - debug: response -> neovim.api.nvim_get_current_win: [object Object]
+2018-02-04T20:39:23.065Z - debug: request -> neovim.api.nvim_win_get_cursor
+2018-02-04T20:39:23.066Z - debug: response -> neovim.api.nvim_win_get_cursor: 3,4
+2018-02-04T20:39:23.066Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T20:39:23.067Z - debug: response -> neovim.api.nvim_eval: n
+2018-02-04T20:39:23.067Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T20:39:23.068Z - debug: response -> neovim.api.nvim_eval: let
+2018-02-04T20:39:23.068Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T20:39:23.068Z - debug: response -> neovim.api.nvim_eval: 4
+2018-02-04T20:39:23.068Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T20:39:23.069Z - debug: response -> neovim.api.nvim_eval: 4
+2018-02-04T20:39:23.070Z - debug: request -> neovim.api.nvim_buf_set_lines
+2018-02-04T20:39:23.070Z - debug: request -> neovim.api.nvim_win_set_cursor
+2018-02-04T20:39:23.070Z - debug: request -> neovim.api.nvim_feedkeys
+2018-02-04T20:39:23.071Z - debug: response -> neovim.api.nvim_buf_set_lines: null
+2018-02-04T20:39:23.092Z - debug: response -> neovim.api.nvim_win_set_cursor: null
+2018-02-04T20:39:23.093Z - debug: response -> neovim.api.nvim_feedkeys: null
+2018-02-04T20:39:26.413Z - info: handleNotification:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-04T20:39:26.413Z - debug: host.handlePlugin:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-04T20:39:26.413Z - debug: getPlugin.shouldCache true
+2018-02-04T20:39:26.413Z - debug: request -> neovim.api.nvim_get_current_buf
+2018-02-04T20:39:26.414Z - debug: response -> neovim.api.nvim_get_current_buf: [object Object]
+2018-02-04T20:39:26.414Z - debug: request -> neovim.api.nvim_get_current_win
+2018-02-04T20:39:26.415Z - debug: response -> neovim.api.nvim_get_current_win: [object Object]
+2018-02-04T20:39:26.415Z - debug: request -> neovim.api.nvim_win_get_cursor
+2018-02-04T20:39:26.415Z - debug: response -> neovim.api.nvim_win_get_cursor: 3,8
+2018-02-04T20:39:26.415Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T20:39:26.416Z - debug: response -> neovim.api.nvim_eval: n
+2018-02-04T20:39:26.416Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T20:39:26.416Z - debug: response -> neovim.api.nvim_eval: importedProducts
+2018-02-04T20:39:26.416Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T20:39:26.416Z - debug: response -> neovim.api.nvim_eval: 4
+2018-02-04T20:39:26.416Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T20:39:26.417Z - debug: response -> neovim.api.nvim_eval: 4
+2018-02-04T20:39:26.417Z - debug: request -> neovim.api.nvim_buf_set_lines
+2018-02-04T20:39:26.417Z - debug: request -> neovim.api.nvim_win_set_cursor
+2018-02-04T20:39:26.418Z - debug: request -> neovim.api.nvim_feedkeys
+2018-02-04T20:39:26.419Z - debug: response -> neovim.api.nvim_buf_set_lines: null
+2018-02-04T20:39:26.437Z - debug: response -> neovim.api.nvim_win_set_cursor: null
+2018-02-04T20:39:26.437Z - debug: response -> neovim.api.nvim_feedkeys: null
+2018-02-04T20:39:46.965Z - debug: host.start
+2018-02-04T20:39:46.977Z - info: handleRequest:  poll
+2018-02-04T20:39:46.984Z - debug: request received:  poll
+2018-02-04T20:39:52.712Z - debug: host.start
+2018-02-04T20:39:52.727Z - info: handleRequest:  poll
+2018-02-04T20:39:52.735Z - debug: request received:  poll
+2018-02-04T20:39:52.736Z - info: handleRequest:  /Users/calbertts/.config/nvim/rplugin/node/test:autocmd:BufEnter:*.js
+2018-02-04T20:39:52.737Z - debug: request received:  /Users/calbertts/.config/nvim/rplugin/node/test:autocmd:BufEnter:*.js
+2018-02-04T20:39:52.737Z - debug: host.handlePlugin:  /Users/calbertts/.config/nvim/rplugin/node/test:autocmd:BufEnter:*.js
+2018-02-04T20:39:52.803Z - debug: getPlugin.shouldCache true
+2018-02-04T20:39:52.803Z - debug: request -> neovim.api.nvim_command
+2018-02-04T20:39:52.804Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T20:39:52.804Z - debug: request -> neovim.api.nvim_command
+2018-02-04T20:39:52.805Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T20:39:52.805Z - debug: request -> neovim.api.nvim_command
+2018-02-04T20:39:52.805Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T20:39:52.805Z - debug: request -> neovim.api.nvim_command
+2018-02-04T20:39:52.805Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T20:39:52.806Z - debug: request -> neovim.api.nvim_command
+2018-02-04T20:39:52.806Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T20:39:52.806Z - debug: request -> neovim.api.nvim_command
+2018-02-04T20:39:52.806Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T20:39:52.806Z - debug: request -> neovim.api.nvim_command
+2018-02-04T20:39:52.806Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T20:39:52.806Z - debug: request -> neovim.api.nvim_command
+2018-02-04T20:39:52.807Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T20:42:09.520Z - info: handleNotification:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-04T20:42:09.520Z - debug: host.handlePlugin:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-04T20:42:09.521Z - debug: getPlugin.shouldCache true
+2018-02-04T20:42:09.523Z - debug: request -> neovim.api.nvim_get_current_buf
+2018-02-04T20:42:09.524Z - debug: response -> neovim.api.nvim_get_current_buf: [object Object]
+2018-02-04T20:42:09.524Z - debug: request -> neovim.api.nvim_get_current_win
+2018-02-04T20:42:09.525Z - debug: response -> neovim.api.nvim_get_current_win: [object Object]
+2018-02-04T20:42:09.525Z - debug: request -> neovim.api.nvim_win_get_cursor
+2018-02-04T20:42:09.526Z - debug: response -> neovim.api.nvim_win_get_cursor: 4,11
+2018-02-04T20:42:09.526Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T20:42:09.527Z - debug: response -> neovim.api.nvim_eval: n
+2018-02-04T20:42:09.527Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T20:42:09.527Z - debug: response -> neovim.api.nvim_eval: importedProducts
+2018-02-04T20:42:09.527Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T20:42:09.528Z - debug: response -> neovim.api.nvim_eval: 4
+2018-02-04T20:42:09.528Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T20:42:09.528Z - debug: response -> neovim.api.nvim_eval: 2
+2018-02-04T20:42:09.529Z - debug: request -> neovim.api.nvim_buf_set_lines
+2018-02-04T20:42:09.529Z - debug: request -> neovim.api.nvim_win_set_cursor
+2018-02-04T20:42:09.530Z - debug: request -> neovim.api.nvim_feedkeys
+2018-02-04T20:42:09.530Z - debug: response -> neovim.api.nvim_buf_set_lines: null
+2018-02-04T20:42:09.548Z - debug: response -> neovim.api.nvim_win_set_cursor: null
+2018-02-04T20:42:09.548Z - debug: response -> neovim.api.nvim_feedkeys: null
+2018-02-04T20:42:11.250Z - info: handleNotification:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-04T20:42:11.250Z - debug: host.handlePlugin:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-04T20:42:11.250Z - debug: getPlugin.shouldCache true
+2018-02-04T20:42:11.250Z - debug: request -> neovim.api.nvim_get_current_buf
+2018-02-04T20:42:11.258Z - debug: response -> neovim.api.nvim_get_current_buf: [object Object]
+2018-02-04T20:42:11.258Z - debug: request -> neovim.api.nvim_get_current_win
+2018-02-04T20:42:11.265Z - debug: response -> neovim.api.nvim_get_current_win: [object Object]
+2018-02-04T20:42:11.265Z - debug: request -> neovim.api.nvim_win_get_cursor
+2018-02-04T20:42:11.266Z - debug: response -> neovim.api.nvim_win_get_cursor: 4,11
+2018-02-04T20:42:11.266Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T20:42:11.266Z - debug: response -> neovim.api.nvim_eval: n
+2018-02-04T20:42:11.266Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T20:42:11.267Z - debug: response -> neovim.api.nvim_eval: importedProducts
+2018-02-04T20:42:11.267Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T20:42:11.267Z - debug: response -> neovim.api.nvim_eval: 4
+2018-02-04T20:42:11.267Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T20:42:11.268Z - debug: response -> neovim.api.nvim_eval: 2
+2018-02-04T20:42:11.268Z - debug: request -> neovim.api.nvim_buf_set_lines
+2018-02-04T20:42:11.268Z - debug: request -> neovim.api.nvim_win_set_cursor
+2018-02-04T20:42:11.269Z - debug: request -> neovim.api.nvim_feedkeys
+2018-02-04T20:42:11.269Z - debug: response -> neovim.api.nvim_buf_set_lines: null
+2018-02-04T20:42:11.291Z - debug: response -> neovim.api.nvim_win_set_cursor: null
+2018-02-04T20:42:11.291Z - debug: response -> neovim.api.nvim_feedkeys: null
+2018-02-04T20:43:12.406Z - info: handleRequest:  /Users/calbertts/.config/nvim/rplugin/node/test:autocmd:BufEnter:*.js
+2018-02-04T20:43:12.406Z - debug: request received:  /Users/calbertts/.config/nvim/rplugin/node/test:autocmd:BufEnter:*.js
+2018-02-04T20:43:12.406Z - debug: host.handlePlugin:  /Users/calbertts/.config/nvim/rplugin/node/test:autocmd:BufEnter:*.js
+2018-02-04T20:43:12.406Z - debug: getPlugin.shouldCache true
+2018-02-04T20:43:12.406Z - debug: request -> neovim.api.nvim_command
+2018-02-04T20:43:12.407Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T20:43:12.407Z - debug: request -> neovim.api.nvim_command
+2018-02-04T20:43:12.407Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T20:43:12.407Z - debug: request -> neovim.api.nvim_command
+2018-02-04T20:43:12.408Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T20:43:12.408Z - debug: request -> neovim.api.nvim_command
+2018-02-04T20:43:12.408Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T20:43:12.408Z - debug: request -> neovim.api.nvim_command
+2018-02-04T20:43:12.408Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T20:43:12.408Z - debug: request -> neovim.api.nvim_command
+2018-02-04T20:43:12.409Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T20:43:12.409Z - debug: request -> neovim.api.nvim_command
+2018-02-04T20:43:12.410Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T20:43:12.410Z - debug: request -> neovim.api.nvim_command
+2018-02-04T20:43:12.410Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T20:43:13.916Z - info: handleNotification:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-04T20:43:13.916Z - debug: host.handlePlugin:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-04T20:43:13.916Z - debug: getPlugin.shouldCache true
+2018-02-04T20:43:13.917Z - debug: request -> neovim.api.nvim_get_current_buf
+2018-02-04T20:43:13.917Z - debug: response -> neovim.api.nvim_get_current_buf: [object Object]
+2018-02-04T20:43:13.917Z - debug: request -> neovim.api.nvim_get_current_win
+2018-02-04T20:43:13.918Z - debug: response -> neovim.api.nvim_get_current_win: [object Object]
+2018-02-04T20:43:13.918Z - debug: request -> neovim.api.nvim_win_get_cursor
+2018-02-04T20:43:13.918Z - debug: response -> neovim.api.nvim_win_get_cursor: 4,36
+2018-02-04T20:43:13.919Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T20:43:13.919Z - debug: response -> neovim.api.nvim_eval: n
+2018-02-04T20:43:13.919Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T20:43:13.920Z - debug: response -> neovim.api.nvim_eval: exist
+2018-02-04T20:43:13.920Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T20:43:13.921Z - debug: response -> neovim.api.nvim_eval: 4
+2018-02-04T20:43:13.921Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T20:43:13.921Z - debug: response -> neovim.api.nvim_eval: 2
+2018-02-04T20:43:13.921Z - debug: request -> neovim.api.nvim_buf_set_lines
+2018-02-04T20:43:13.922Z - debug: request -> neovim.api.nvim_win_set_cursor
+2018-02-04T20:43:13.922Z - debug: request -> neovim.api.nvim_feedkeys
+2018-02-04T20:43:13.923Z - debug: response -> neovim.api.nvim_buf_set_lines: null
+2018-02-04T20:43:13.945Z - debug: response -> neovim.api.nvim_win_set_cursor: null
+2018-02-04T20:43:13.945Z - debug: response -> neovim.api.nvim_feedkeys: null
+2018-02-04T20:43:18.257Z - info: handleNotification:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-04T20:43:18.257Z - debug: host.handlePlugin:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-04T20:43:18.257Z - debug: getPlugin.shouldCache true
+2018-02-04T20:43:18.258Z - debug: request -> neovim.api.nvim_get_current_buf
+2018-02-04T20:43:18.258Z - debug: response -> neovim.api.nvim_get_current_buf: [object Object]
+2018-02-04T20:43:18.258Z - debug: request -> neovim.api.nvim_get_current_win
+2018-02-04T20:43:18.259Z - debug: response -> neovim.api.nvim_get_current_win: [object Object]
+2018-02-04T20:43:18.259Z - debug: request -> neovim.api.nvim_win_get_cursor
+2018-02-04T20:43:18.259Z - debug: response -> neovim.api.nvim_win_get_cursor: 4,31
+2018-02-04T20:43:18.259Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T20:43:18.260Z - debug: response -> neovim.api.nvim_eval: n
+2018-02-04T20:43:18.260Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T20:43:18.261Z - debug: response -> neovim.api.nvim_eval: exist
+2018-02-04T20:43:18.261Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T20:43:18.262Z - debug: response -> neovim.api.nvim_eval: 4
+2018-02-04T20:43:18.262Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T20:43:18.263Z - debug: response -> neovim.api.nvim_eval: 2
+2018-02-04T20:43:18.264Z - debug: request -> neovim.api.nvim_buf_set_lines
+2018-02-04T20:43:18.264Z - debug: request -> neovim.api.nvim_win_set_cursor
+2018-02-04T20:43:18.266Z - debug: request -> neovim.api.nvim_feedkeys
+2018-02-04T20:43:18.268Z - debug: response -> neovim.api.nvim_buf_set_lines: null
+2018-02-04T20:43:18.287Z - debug: response -> neovim.api.nvim_win_set_cursor: null
+2018-02-04T20:43:18.287Z - debug: response -> neovim.api.nvim_feedkeys: null
+2018-02-04T20:50:37.853Z - info: handleNotification:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-04T20:50:37.854Z - debug: host.handlePlugin:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-04T20:50:37.854Z - debug: getPlugin.shouldCache true
+2018-02-04T20:50:37.855Z - debug: request -> neovim.api.nvim_get_current_buf
+2018-02-04T20:50:37.857Z - debug: response -> neovim.api.nvim_get_current_buf: [object Object]
+2018-02-04T20:50:37.857Z - debug: request -> neovim.api.nvim_get_current_win
+2018-02-04T20:50:37.857Z - debug: response -> neovim.api.nvim_get_current_win: [object Object]
+2018-02-04T20:50:37.857Z - debug: request -> neovim.api.nvim_win_get_cursor
+2018-02-04T20:50:37.858Z - debug: response -> neovim.api.nvim_win_get_cursor: 4,4
+2018-02-04T20:50:37.859Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T20:50:37.860Z - debug: response -> neovim.api.nvim_eval: n
+2018-02-04T20:50:37.860Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T20:50:37.861Z - debug: response -> neovim.api.nvim_eval: expect
+2018-02-04T20:50:37.861Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T20:50:37.861Z - debug: response -> neovim.api.nvim_eval: 4
+2018-02-04T20:50:37.861Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T20:50:37.862Z - debug: response -> neovim.api.nvim_eval: 2
+2018-02-04T20:50:37.863Z - debug: request -> neovim.api.nvim_buf_set_lines
+2018-02-04T20:50:37.863Z - debug: request -> neovim.api.nvim_win_set_cursor
+2018-02-04T20:50:37.863Z - debug: request -> neovim.api.nvim_feedkeys
+2018-02-04T20:50:37.864Z - debug: response -> neovim.api.nvim_buf_set_lines: null
+2018-02-04T20:50:37.888Z - debug: response -> neovim.api.nvim_win_set_cursor: null
+2018-02-04T20:50:37.888Z - debug: response -> neovim.api.nvim_feedkeys: null
+2018-02-04T21:07:12.628Z - info: handleNotification:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-04T21:07:12.629Z - debug: host.handlePlugin:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-04T21:07:12.629Z - debug: getPlugin.shouldCache true
+2018-02-04T21:07:12.631Z - debug: request -> neovim.api.nvim_get_current_buf
+2018-02-04T21:07:12.632Z - debug: response -> neovim.api.nvim_get_current_buf: [object Object]
+2018-02-04T21:07:12.647Z - debug: request -> neovim.api.nvim_get_current_win
+2018-02-04T21:07:12.648Z - debug: response -> neovim.api.nvim_get_current_win: [object Object]
+2018-02-04T21:07:12.648Z - debug: request -> neovim.api.nvim_win_get_cursor
+2018-02-04T21:07:12.648Z - debug: response -> neovim.api.nvim_win_get_cursor: 4,4
+2018-02-04T21:07:12.648Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T21:07:12.649Z - debug: response -> neovim.api.nvim_eval: n
+2018-02-04T21:07:12.649Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T21:07:12.650Z - debug: response -> neovim.api.nvim_eval: expect
+2018-02-04T21:07:12.650Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T21:07:12.651Z - debug: response -> neovim.api.nvim_eval: 4
+2018-02-04T21:07:12.651Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T21:07:12.652Z - debug: response -> neovim.api.nvim_eval: 2
+2018-02-04T21:07:12.652Z - debug: request -> neovim.api.nvim_buf_set_lines
+2018-02-04T21:07:12.653Z - debug: request -> neovim.api.nvim_win_set_cursor
+2018-02-04T21:07:12.653Z - debug: request -> neovim.api.nvim_feedkeys
+2018-02-04T21:07:12.654Z - debug: response -> neovim.api.nvim_buf_set_lines: null
+2018-02-04T21:07:12.680Z - debug: response -> neovim.api.nvim_win_set_cursor: null
+2018-02-04T21:07:12.680Z - debug: response -> neovim.api.nvim_feedkeys: null
+2018-02-04T21:07:25.187Z - debug: host.start
+2018-02-04T21:07:25.200Z - info: handleRequest:  poll
+2018-02-04T21:07:25.208Z - debug: request received:  poll
+2018-02-04T21:07:25.210Z - info: handleRequest:  /Users/calbertts/.config/nvim/rplugin/node/test:autocmd:BufEnter:*.js
+2018-02-04T21:07:25.210Z - debug: request received:  /Users/calbertts/.config/nvim/rplugin/node/test:autocmd:BufEnter:*.js
+2018-02-04T21:07:25.210Z - debug: host.handlePlugin:  /Users/calbertts/.config/nvim/rplugin/node/test:autocmd:BufEnter:*.js
+2018-02-04T21:07:25.304Z - debug: getPlugin.shouldCache true
+2018-02-04T21:07:25.305Z - debug: request -> neovim.api.nvim_command
+2018-02-04T21:07:25.306Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T21:07:25.306Z - debug: request -> neovim.api.nvim_command
+2018-02-04T21:07:25.306Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T21:07:25.307Z - debug: request -> neovim.api.nvim_command
+2018-02-04T21:07:25.307Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T21:07:25.307Z - debug: request -> neovim.api.nvim_command
+2018-02-04T21:07:25.307Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T21:07:25.307Z - debug: request -> neovim.api.nvim_command
+2018-02-04T21:07:25.308Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T21:07:25.308Z - debug: request -> neovim.api.nvim_command
+2018-02-04T21:07:25.308Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T21:07:25.308Z - debug: request -> neovim.api.nvim_command
+2018-02-04T21:07:25.308Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T21:07:25.308Z - debug: request -> neovim.api.nvim_command
+2018-02-04T21:07:25.308Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T21:07:27.249Z - info: handleNotification:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-04T21:07:27.249Z - debug: host.handlePlugin:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-04T21:07:27.249Z - debug: getPlugin.shouldCache true
+2018-02-04T21:07:27.251Z - debug: request -> neovim.api.nvim_get_current_buf
+2018-02-04T21:07:27.252Z - debug: response -> neovim.api.nvim_get_current_buf: [object Object]
+2018-02-04T21:07:27.252Z - debug: request -> neovim.api.nvim_get_current_win
+2018-02-04T21:07:27.253Z - debug: response -> neovim.api.nvim_get_current_win: [object Object]
+2018-02-04T21:07:27.253Z - debug: request -> neovim.api.nvim_win_get_cursor
+2018-02-04T21:07:27.254Z - debug: response -> neovim.api.nvim_win_get_cursor: 4,4
+2018-02-04T21:07:27.254Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T21:07:27.255Z - debug: response -> neovim.api.nvim_eval: n
+2018-02-04T21:07:27.255Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T21:07:27.256Z - debug: response -> neovim.api.nvim_eval: expect
+2018-02-04T21:07:27.256Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T21:07:27.256Z - debug: response -> neovim.api.nvim_eval: 4
+2018-02-04T21:07:27.256Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T21:07:27.257Z - debug: response -> neovim.api.nvim_eval: 2
+2018-02-04T21:07:27.258Z - debug: request -> neovim.api.nvim_buf_set_lines
+2018-02-04T21:07:27.258Z - debug: request -> neovim.api.nvim_win_set_cursor
+2018-02-04T21:07:27.259Z - debug: request -> neovim.api.nvim_feedkeys
+2018-02-04T21:07:27.259Z - debug: response -> neovim.api.nvim_buf_set_lines: null
+2018-02-04T21:07:27.278Z - debug: response -> neovim.api.nvim_win_set_cursor: null
+2018-02-04T21:07:27.278Z - debug: response -> neovim.api.nvim_feedkeys: null
+2018-02-04T21:07:29.321Z - info: handleNotification:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-04T21:07:29.321Z - debug: host.handlePlugin:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-04T21:07:29.322Z - debug: getPlugin.shouldCache true
+2018-02-04T21:07:29.322Z - debug: request -> neovim.api.nvim_get_current_buf
+2018-02-04T21:07:29.322Z - debug: response -> neovim.api.nvim_get_current_buf: [object Object]
+2018-02-04T21:07:29.322Z - debug: request -> neovim.api.nvim_get_current_win
+2018-02-04T21:07:29.323Z - debug: response -> neovim.api.nvim_get_current_win: [object Object]
+2018-02-04T21:07:29.323Z - debug: request -> neovim.api.nvim_win_get_cursor
+2018-02-04T21:07:29.323Z - debug: response -> neovim.api.nvim_win_get_cursor: 4,4
+2018-02-04T21:07:29.324Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T21:07:29.324Z - debug: response -> neovim.api.nvim_eval: n
+2018-02-04T21:07:29.324Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T21:07:29.325Z - debug: response -> neovim.api.nvim_eval: expect
+2018-02-04T21:07:29.325Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T21:07:29.325Z - debug: response -> neovim.api.nvim_eval: 4
+2018-02-04T21:07:29.325Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T21:07:29.326Z - debug: response -> neovim.api.nvim_eval: 2
+2018-02-04T21:07:29.326Z - debug: request -> neovim.api.nvim_buf_set_lines
+2018-02-04T21:07:29.326Z - debug: request -> neovim.api.nvim_win_set_cursor
+2018-02-04T21:07:29.326Z - debug: request -> neovim.api.nvim_feedkeys
+2018-02-04T21:07:29.327Z - debug: response -> neovim.api.nvim_buf_set_lines: null
+2018-02-04T21:07:29.345Z - debug: response -> neovim.api.nvim_win_set_cursor: null
+2018-02-04T21:07:29.345Z - debug: response -> neovim.api.nvim_feedkeys: null
+2018-02-04T21:07:32.910Z - info: handleNotification:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-04T21:07:32.910Z - debug: host.handlePlugin:  /Users/calbertts/.config/nvim/rplugin/node/test:command:JSWrap
+2018-02-04T21:07:32.910Z - debug: getPlugin.shouldCache true
+2018-02-04T21:07:32.910Z - debug: request -> neovim.api.nvim_get_current_buf
+2018-02-04T21:07:32.911Z - debug: response -> neovim.api.nvim_get_current_buf: [object Object]
+2018-02-04T21:07:32.911Z - debug: request -> neovim.api.nvim_get_current_win
+2018-02-04T21:07:32.911Z - debug: response -> neovim.api.nvim_get_current_win: [object Object]
+2018-02-04T21:07:32.911Z - debug: request -> neovim.api.nvim_win_get_cursor
+2018-02-04T21:07:32.912Z - debug: response -> neovim.api.nvim_win_get_cursor: 4,4
+2018-02-04T21:07:32.912Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T21:07:32.912Z - debug: response -> neovim.api.nvim_eval: n
+2018-02-04T21:07:32.912Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T21:07:32.913Z - debug: response -> neovim.api.nvim_eval: expect
+2018-02-04T21:07:32.913Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T21:07:32.914Z - debug: response -> neovim.api.nvim_eval: 4
+2018-02-04T21:07:32.915Z - debug: request -> neovim.api.nvim_eval
+2018-02-04T21:07:32.916Z - debug: response -> neovim.api.nvim_eval: 2
+2018-02-04T21:07:32.916Z - debug: request -> neovim.api.nvim_buf_set_lines
+2018-02-04T21:07:32.916Z - debug: request -> neovim.api.nvim_win_set_cursor
+2018-02-04T21:07:32.917Z - debug: request -> neovim.api.nvim_feedkeys
+2018-02-04T21:07:32.917Z - debug: response -> neovim.api.nvim_buf_set_lines: null
+2018-02-04T21:07:32.942Z - debug: response -> neovim.api.nvim_win_set_cursor: null
+2018-02-04T21:07:32.942Z - debug: response -> neovim.api.nvim_feedkeys: null
+2018-02-04T21:41:04.133Z - debug: host.start
+2018-02-04T21:41:04.144Z - info: handleRequest:  poll
+2018-02-04T21:41:04.150Z - debug: request received:  poll
+2018-02-04T21:41:12.249Z - debug: host.start
+2018-02-04T21:41:12.268Z - info: handleRequest:  poll
+2018-02-04T21:41:12.281Z - debug: request received:  poll
+2018-02-04T21:41:12.282Z - info: handleRequest:  /Users/calbertts/.config/nvim/rplugin/node/test:autocmd:BufEnter:*.js
+2018-02-04T21:41:12.282Z - debug: request received:  /Users/calbertts/.config/nvim/rplugin/node/test:autocmd:BufEnter:*.js
+2018-02-04T21:41:12.283Z - debug: host.handlePlugin:  /Users/calbertts/.config/nvim/rplugin/node/test:autocmd:BufEnter:*.js
+2018-02-04T21:41:12.370Z - debug: getPlugin.shouldCache true
+2018-02-04T21:41:12.370Z - debug: request -> neovim.api.nvim_command
+2018-02-04T21:41:12.372Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T21:41:12.372Z - debug: request -> neovim.api.nvim_command
+2018-02-04T21:41:12.372Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T21:41:12.372Z - debug: request -> neovim.api.nvim_command
+2018-02-04T21:41:12.372Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T21:41:12.373Z - debug: request -> neovim.api.nvim_command
+2018-02-04T21:41:12.373Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T21:41:12.373Z - debug: request -> neovim.api.nvim_command
+2018-02-04T21:41:12.375Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T21:41:12.375Z - debug: request -> neovim.api.nvim_command
+2018-02-04T21:41:12.375Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T21:41:12.375Z - debug: request -> neovim.api.nvim_command
+2018-02-04T21:41:12.377Z - debug: response -> neovim.api.nvim_command: null
+2018-02-04T21:41:12.377Z - debug: request -> neovim.api.nvim_command
+2018-02-04T21:41:12.377Z - debug: response -> neovim.api.nvim_command: null
